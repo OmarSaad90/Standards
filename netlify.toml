@@ -1,0 +1,12 @@
+# Netlify site config for the Free Standards Explorer.
+# This repository root is the project root, so no Base directory is needed.
+# Set NEXT_PUBLIC_SITE_URL in the Netlify UI once the domain is attached.
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"

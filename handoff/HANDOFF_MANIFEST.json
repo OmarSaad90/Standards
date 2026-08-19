@@ -1,0 +1,21 @@
+{
+  "artifact": "Aedifica Free Standards Explorer Online Developer Handoff",
+  "version": "1.0.0",
+  "scope": "FREE_STANDARDS_EXPLORER_ONLY",
+  "excludes": [
+    "Pro application",
+    "authentication/accounts",
+    "paid entitlements",
+    "Expanded Relationships",
+    "Disputed Relationships",
+    "Quarantine UI",
+    "School/District features",
+    "customer overlays",
+    "protected relationship graph"
+  ],
+  "public_data": {
+    "records": 2833,
+    "current_records": 2775,
+    "sha256": "4a613c9bcb34c91635966f9e7a6c3f319499a6f925e556873320fc895423c142"
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://aedifica.example/contracts/public-data-v2-8-1.schema.json",
+  "title": "Aedifica Free Standards Explorer Public Data v2.8.1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "meta",
+    "standards"
+  ],
+  "properties": {
+    "meta": {
+      "type": "object",
+      "additionalProperties": true,
+      "required": [
+        "version",
+        "total_count",
+        "current_count",
+        "areas",
+        "public_contract"
+      ],
+      "properties": {
+        "version": {
+          "const": "2.8.1"
+        },
+        "total_count": {
+          "const": 2833
+        },
+        "current_count": {
+          "const": 2775
+        },
+        "public_contract": {
+          "type": "string"
+        },
+        "areas": {
+          "type": "array"
+        }
+      }
+    },
+    "standards": {
+      "type": "array",
+      "minItems": 2833,
+      "maxItems": 2833,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "uid",
+          "code",
+          "area",
+          "area_name",
+          "label",
+          "grades",
+          "current",
+          "status",
+          "domain",
+          "frameworks",
+          "versions",
+          "source_url",
+          "source_url_kind",
+          "aedifica_view",
+          "generic_evidence_signals",
+          "relationship_signals",
+          "framework_lineage"
+        ],
+        "properties": {
+          "uid": {
+            "type": "string"
+          },
+          "code": {
+            "type": "string"
+          },
+          "area": {
+            "type": "string"
+          },
+          "area_name": {
+            "type": "string"
+          },
+          "label": {
+            "type": "string"
+          },
+          "grades": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "current": {
+            "type": "boolean"
+          },
+          "status": {
+            "type": "string"
+          },
+          "domain": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "frameworks": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "versions": {
+            "type": "array"
+          },
+          "source_url": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "source_url_kind": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "aedifica_view": {
+            "type": "string"
+          },
+          "generic_evidence_signals": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "relationship_signals": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "supports",
+              "reinforces",
+              "next",
+              "total"
+            ],
+            "properties": {
+              "supports": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "reinforces": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "next": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "total": {
+                "type": "integer",
+                "minimum": 0
+              }
+            }
+          },
+          "framework_lineage": {}
+        }
+      }
+    }
+  }
+}
