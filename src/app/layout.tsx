@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import './globals.css'
 import { SiteHeader, SiteFooter } from '@/components/SiteChrome'
-import { SITE_NAME, SITE_URL, DEFAULT_DESCRIPTION } from '@/lib/config'
+import { SITE_NAME, SITE_URL, DEFAULT_DESCRIPTION, ALLOW_INDEXING } from '@/lib/config'
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_US',
   },
-  robots: { index: true, follow: true },
+  robots: { index: ALLOW_INDEXING, follow: ALLOW_INDEXING },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

@@ -16,6 +16,15 @@ export const SITE_URL = (
   'http://localhost:3100'
 ).replace(/\/$/, '')
 
+/**
+ * Search engines are kept out until the site is on its own domain, so the
+ * temporary Netlify hostname never accumulates an index that would have to be
+ * migrated later. Attaching the custom domain changes SITE_URL, which flips
+ * this to true on the next deploy. No manual step at switch-over.
+ */
+export const ALLOW_INDEXING =
+  !SITE_URL.includes('netlify.app') && !SITE_URL.includes('localhost')
+
 export const DEFAULT_DESCRIPTION =
   'Governed New Jersey Grades 6\u201312 standards with public learning-context signals.'
 
