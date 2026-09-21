@@ -3,7 +3,7 @@
 export const SITE_NAME = 'Aedifica Standards Explorer'
 export const PRODUCT_LABEL = 'Standards Explorer'
 export const RELEASE_VERSION = '1.0.0'
-export const DATA_VERSION = '2.8.1'
+export const DATA_VERSION = '1.0.7'
 
 /**
  * Set NEXT_PUBLIC_SITE_URL in the Netlify environment once the domain exists.

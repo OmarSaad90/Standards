@@ -19,6 +19,10 @@
  *
  * This changes search behaviour versus the locked artifact, deliberately. The
  * dataset itself is untouched.
+ *
+ * Confirmed still present, unmodified, in the handoffv2 dataset (2026-09-21):
+ * 484 of 2,836 codes, same pattern, plus two codes with stray whitespace. The
+ * generic regex below already covers both without changes.
  */
 
 /** Every dash-like character that should compare equal to ASCII "-". */

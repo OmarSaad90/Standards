@@ -2,7 +2,8 @@ import { notFound } from 'next/navigation'
 import type { Metadata } from 'next'
 import { resolveSubject, standardsInSubject, subjectDirectory } from '@/lib/data'
 import { parseQueryLenient, runQuery } from '@/lib/search'
-import { ResultList, Pager } from '@/components/Results'
+import { BAND_LABEL, isBandSlug } from '@/lib/slugs'
+import { ResultList, Pager, ActiveFilterChips, type ActiveFilter } from '@/components/Results'
 import { Breadcrumb } from '@/components/SiteChrome'
 
 type SP = Record<string, string | string[] | undefined>
@@ -26,7 +27,7 @@ export async function generateMetadata({
   return {
     title: resolved.name,
     description: `${current.toLocaleString()} current New Jersey ${resolved.name} standards for Grades 6-12, with sources, Aedifica View, and aggregate learning-context signals.`,
-    alternates: { canonical: `/subjects/${resolved.slug}` },
+    alternates: { canonical: `/standards/subject/${resolved.slug}` },
   }
 }
 
@@ -46,13 +47,24 @@ export default async function SubjectPage({
   const query = parseQueryLenient(sp)
   const result = runQuery({ ...query, subject: '' }, pool)
 
-  const hrefFor = (page: number) => {
+  const hrefFor = (page: number, omit?: 'status' | 'band') => {
     const p = new URLSearchParams()
-    if (query.status !== 'current') p.set('status', query.status)
-    if (query.band) p.set('band', query.band)
+    if (query.status !== 'current' && omit !== 'status') p.set('status', query.status)
+    if (query.band && omit !== 'band') p.set('band', query.band)
     if (page > 1) p.set('page', String(page))
     const qs = p.toString()
-    return qs ? `/subjects/${resolved.slug}?${qs}` : `/subjects/${resolved.slug}`
+    return qs ? `/standards/subject/${resolved.slug}?${qs}` : `/standards/subject/${resolved.slug}`
+  }
+
+  const filters: ActiveFilter[] = []
+  if (query.band && isBandSlug(query.band)) {
+    filters.push({ label: BAND_LABEL[query.band], href: hrefFor(1, 'band') })
+  }
+  if (query.status !== 'current') {
+    filters.push({
+      label: query.status === 'all' ? 'Current + historical' : 'Historical only',
+      href: hrefFor(1, 'status'),
+    })
   }
 
   return (
@@ -61,7 +73,7 @@ export default async function SubjectPage({
         <Breadcrumb
           items={[
             { label: 'Explorer', href: '/' },
-            { label: 'Subjects', href: '/subjects' },
+            { label: 'Subjects', href: '/standards/subject' },
             { label: resolved.name },
           ]}
         />
@@ -81,6 +93,8 @@ export default async function SubjectPage({
           </div>
           <span className="countbadge">{result.total.toLocaleString()} found</span>
         </div>
+
+        <ActiveFilterChips filters={filters} />
 
         <ResultList items={result.items} />
         <Pager page={result.page} pages={result.pages} hrefFor={hrefFor} />

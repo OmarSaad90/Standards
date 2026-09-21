@@ -12,8 +12,8 @@ export default function NotFound() {
         <p className="lead">
           The code may be historical, may belong to a framework outside Grades 6&ndash;12, or may
           simply be mistyped. Search the {meta.total_count.toLocaleString()} indexed records below,
-          or browse by <Link href="/subjects">subject</Link> or{' '}
-          <Link href="/grades">grade</Link>.
+          or browse by <Link href="/standards/subject">subject</Link> or{' '}
+          <Link href="/standards/grade">grade</Link>.
         </p>
         <div style={{ maxWidth: 520, marginTop: 34 }}>
           <SearchPanel areas={meta.areas} status="all" />

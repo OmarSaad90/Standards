@@ -81,7 +81,7 @@ function scan(file) {
 
 for (const t of TARGETS) walk(path.join(ROOT, t))
 
-const dataBuf = fs.readFileSync(path.join(ROOT, 'data', 'public_data_v2_8_1_locked.json'))
+const dataBuf = fs.readFileSync(path.join(ROOT, 'data', 'public_standards_phase1_v1_0_7.json'))
 const dataSha = crypto.createHash('sha256').update(dataBuf).digest('hex')
 
 const lines = [

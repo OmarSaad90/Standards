@@ -16,9 +16,6 @@ export function SiteHeader() {
         <Link className="toplink" href="/standards">
           Explore standards
         </Link>
-        <Link className="probtn" href="/pro">
-          Aedifica Pro
-        </Link>
       </div>
     </header>
   )
@@ -36,10 +33,9 @@ export function SiteFooter() {
         </div>
         <nav className="footernav" aria-label="Footer">
           <Link href="/standards">Standards</Link>
-          <Link href="/subjects">Subjects</Link>
-          <Link href="/grades">Grades</Link>
+          <Link href="/standards/subject">Subjects</Link>
+          <Link href="/standards/grade">Grades</Link>
           <Link href="/about">About</Link>
-          <Link href="/pro">Aedifica Pro</Link>
         </nav>
       </div>
     </footer>

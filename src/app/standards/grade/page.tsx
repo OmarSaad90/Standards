@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: 'Grades',
   description:
     'Browse New Jersey Grades 6-12 standards by grade band or by individual grade level, across all nine subject areas.',
-  alternates: { canonical: '/grades' },
+  alternates: { canonical: '/standards/grade' },
 }
 
 export default function GradesPage() {
@@ -39,7 +39,7 @@ export default function GradesPage() {
           </div>
           <div className="dirlist">
             {(['middle', 'high'] as const).map((b) => (
-              <Link className="dirrow" href={`/grades/${b}`} key={b}>
+              <Link className="dirrow" href={`/standards/grade/${b}`} key={b}>
                 <div>
                   <h3>{BAND_LABEL[b]}</h3>
                   <p className="tiny muted" style={{ marginTop: 6 }}>
@@ -62,7 +62,7 @@ export default function GradesPage() {
           </div>
           <div className="dirlist">
             {tokens.map((t) => (
-              <Link className="dirrow" href={`/grades/${encodeURIComponent(t)}`} key={t}>
+              <Link className="dirrow" href={`/standards/grade/${encodeURIComponent(t)}`} key={t}>
                 <div>
                   <h3>{gradeLabel(t)}</h3>
                   <p className="tiny muted" style={{ marginTop: 6 }}>

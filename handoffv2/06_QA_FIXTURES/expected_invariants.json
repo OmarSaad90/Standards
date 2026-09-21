@@ -1,0 +1,17 @@
+{
+  "total_standards": 2836,
+  "current": 2757,
+  "non_current": 79,
+  "supports": 1420,
+  "reinforces": 2424,
+  "next": 1420,
+  "endpoint_incidences": 5264,
+  "ela_total": 218,
+  "ela_current": 160,
+  "ela_historical": 58,
+  "ela_current_official_source_markers": 160,
+  "ela_standards_with_components": 40,
+  "ela_official_component_items": 183,
+  "math_pcs_target_rows": 161,
+  "math_pcs_direct_pairs": 192
+}

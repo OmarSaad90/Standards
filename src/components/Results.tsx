@@ -2,8 +2,31 @@ import Link from 'next/link'
 import type { PublicStandard } from '@/lib/types'
 import { codeSlug } from '@/lib/codes'
 
+export interface ActiveFilter {
+  label: string
+  href: string
+}
+
+/**
+ * ActiveFilterConditions, per handoffv2/05_DEVELOPER_INSTRUCTIONS/05_COMPONENT_SPEC.md.
+ * Each chip removes exactly the one filter it names; callers build `href` from
+ * whichever query params they already preserve across pagination.
+ */
+export function ActiveFilterChips({ filters }: { filters: ActiveFilter[] }) {
+  if (filters.length === 0) return null
+  return (
+    <div className="activefilters" aria-label="Active filters">
+      {filters.map((f) => (
+        <Link key={f.label} href={f.href} className="filterchip">
+          {f.label} <span aria-hidden="true">&times;</span>
+        </Link>
+      ))}
+    </div>
+  )
+}
+
 export function ResultRow({ s }: { s: PublicStandard }) {
-  const r = s.relationship_signals
+  const r = s.public_relationship_buckets
   return (
     <article className="result">
       <div>

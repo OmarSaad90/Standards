@@ -3,7 +3,7 @@ import type { PublicStandard } from './types'
 /**
  * Explicit field-by-field serialisation.
  *
- * 05_PUBLIC_DATA_AND_API_CONTRACT.md: "Use strict serialization. Do not return
+ * handoffv2/05_DEVELOPER_INSTRUCTIONS/03_PUBLIC_DATA_CONTRACT.md: "Use strict serialization. Do not return
  * raw internal models." Spreading the source object would silently publish any
  * field a future dataset happens to add, so every field is named here.
  */
@@ -24,13 +24,20 @@ export function toPublicStandard(s: PublicStandard) {
     source_url_kind: s.source_url_kind ?? null,
     aedifica_view: s.aedifica_view,
     generic_evidence_signals: [...(s.generic_evidence_signals ?? [])],
-    relationship_signals: {
-      supports: s.relationship_signals.supports,
-      reinforces: s.relationship_signals.reinforces,
-      next: s.relationship_signals.next,
-      total: s.relationship_signals.total,
+    relationship_count: s.relationship_count,
+    relationship_counts: {
+      Supports: s.relationship_counts.Supports,
+      Reinforces: s.relationship_counts.Reinforces,
+      Next: s.relationship_counts.Next,
+    },
+    public_relationship_buckets: {
+      supports: s.public_relationship_buckets.supports,
+      reinforces: s.public_relationship_buckets.reinforces,
+      next: s.public_relationship_buckets.next,
     },
     framework_lineage: s.framework_lineage ?? null,
+    official_text_source: s.official_text_source ?? null,
+    official_components: s.official_components ? [...s.official_components] : [],
   }
 }
 

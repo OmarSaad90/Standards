@@ -11,6 +11,24 @@ than passed, and are listed again at the end.
 
 ---
 
+## 2026-09-21 — dataset and spec migration, checklist below is STALE
+
+The site now ships `handoffv2/02_PUBLIC_DATA/public_standards_phase1_v1_0_7.json`
+(2,836 records / 2,757 current), built against `handoffv2/` (dated 2026-09-20), which
+supersedes the original `handoff/` package referenced throughout this document. Changes
+since the checklist below was last run: dataset and field-shape swap, `/pro` and
+`/standards/[code]/learning` removed (Pro is out of scope for this phase), a new
+official-ELA-text block added, and `/subjects/`, `/grades/` restructured to
+`/standards/subject/`, `/standards/grade/`.
+
+**Every PASS row below was verified against the old v2.8.1 build and has not been
+re-run against this migration.** Specific claims (exact search results, per-record
+relationship counts, sitemap URL totals) are almost certainly now wrong in detail even
+where the underlying behavior still holds. Treat this whole checklist as pending
+re-verification, not as current evidence, until a fresh pass is run and dated.
+
+---
+
 ## Data
 
 | Check | Result | Evidence |
@@ -163,6 +181,24 @@ Verified that `/standards/9.3.12.AC-CST.1` resolves and that
 `?q=9.3.12.AC-CST.1` returns exactly one result.
 
 Recommend normalising the codes in the next public data export.
+
+---
+
+## Second finding raised against the locked dataset
+
+**Public Supports/Reinforces/Next counts include all 3,653 relationships**, not just
+the 2,904 the client's own Free Public Count Policy v1.0.1 designates as public-eligible
+(`DEFAULT` status). The remaining 749 (`EXPANDED_OPT_IN`, `DISPUTED_OPT_IN`,
+`GOVERNANCE_HISTORY_ONLY`) should contribute zero per that policy but are currently
+counted.
+
+Not fixable in this build: the export carries only aggregate totals per standard, with
+no per-relationship status label, so there is no way to identify which relationships to
+exclude. Requires a reissued export partitioned by status, or explicit confirmation from
+the client that all-tier counts are acceptable.
+
+Reported to the client 2026-08-20; awaiting reply. Shipping with all-tier counts in the
+meantime as a disclosed, reversible decision, not a silent gap.
 
 ---
 

@@ -1,0 +1,11 @@
+{
+  "artifact": "Free_Standards_Explorer_v1_0_7_Standards_Only_Developer_Candidate.html",
+  "sha256": "3f54bdc7e9a1c8eaae2ac2c8f7c460584bcda23ee41e6ed85ba9f8113dc2b0bb",
+  "bytes": 3901008,
+  "role": "AUTHORITATIVE_DEVELOPER_REFERENCE_FOR_PHASE_1_FREE_STANDARDS",
+  "status": "CANDIDATE_NOT_LOCKED",
+  "phase1_scope": "Free Standards Explorer only",
+  "aggregate_relationship_counts_visible": true,
+  "relationship_cta": "Relationship intelligence coming soon",
+  "live_relationship_route": false
+}

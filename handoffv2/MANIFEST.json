@@ -1,0 +1,68 @@
+{
+  "package": "Aedifica Free Standards Explorer v1.0.7 \u2014 Complete Developer Handover v1.2",
+  "date": "2026-09-20",
+  "scope": "FREE_STANDARDS_EXPLORER_ONLY",
+  "reference": {
+    "filename": "Free_Standards_Explorer_v1_0_7_Standards_Only_Developer_Candidate.html",
+    "sha256": "3f54bdc7e9a1c8eaae2ac2c8f7c460584bcda23ee41e6ed85ba9f8113dc2b0bb",
+    "status": "CANDIDATE_NOT_LOCKED"
+  },
+  "invariants": {
+    "total_standards": 2836,
+    "current": 2757,
+    "non_current": 79,
+    "supports": 1420,
+    "reinforces": 2424,
+    "next": 1420,
+    "endpoint_incidences": 5264,
+    "ela_total": 218,
+    "ela_current": 160,
+    "ela_historical": 58,
+    "ela_current_official_source_markers": 160,
+    "ela_standards_with_components": 40,
+    "ela_official_component_items": 183,
+    "math_pcs_target_rows": 161,
+    "math_pcs_direct_pairs": 192
+  },
+  "relationship_state": {
+    "aggregate_counts_visible": true,
+    "cta": "Relationship intelligence coming soon",
+    "live_route": false,
+    "exact_topology_included": false
+  },
+  "production_data_exclusions": [
+    "app_count",
+    "programs",
+    "curriculum_preview"
+  ],
+  "included": [
+    "reference HTML",
+    "reference audit",
+    "sanitized public data",
+    "ELA source authority",
+    "minimal frozen content lineage",
+    "route manifest",
+    "developer instructions",
+    "QA scripts"
+  ],
+  "excluded": [
+    "Source Graph Preview",
+    "exact relationship topology",
+    "paid Source Graph",
+    "Pro",
+    "School",
+    "District",
+    "customer curriculum mappings",
+    "private/governance relationship data"
+  ],
+  "master_step_by_step_guide": "05_DEVELOPER_INSTRUCTIONS/MASTER_STEP_BY_STEP_BUILD_GUIDE.md",
+  "step_count": 50,
+  "handover_type": "COMPLETE_COMPILED_STANDARDS_ONLY_DEVELOPER_HANDOVER",
+  "master_handover": "MASTER_HANDOVER.md",
+  "step_to_file_map": "STEP_TO_FILE_MAP.md",
+  "file_inventory": [
+    "FILE_INVENTORY.md",
+    "FILE_INVENTORY.csv"
+  ],
+  "developer_handback_requirements": "DEVELOPER_HANDBACK_REQUIREMENTS.md"
+}

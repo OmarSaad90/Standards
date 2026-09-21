@@ -1,0 +1,602 @@
+[
+  {
+    "uid": "std:chpe:2.1.12.CHSS.1",
+    "code": "2.1.12.CHSS.1",
+    "area": "chpe",
+    "area_name": "Comprehensive Health & Physical Education",
+    "label": "Analyze the opportunities at home, in school, and in the community to support one's own or another's mental health",
+    "grades": [
+      "9-12"
+    ],
+    "current": true,
+    "status": "Current",
+    "source_url": "https://www.nj.gov/education/standards/chp/",
+    "source_url_kind": "framework-directory",
+    "frameworks": [
+      "2020"
+    ],
+    "versions": [],
+    "relationship_count": 1,
+    "relationship_counts": {
+      "Supports": 1,
+      "Reinforces": 0,
+      "Next": 0
+    },
+    "aedifica_view": "Analyze the opportunities at home, in school, and in the community to support one's own or another's mental health.",
+    "domain": "2PMH",
+    "public_relationship_buckets": {
+      "supports": 1,
+      "reinforces": 0,
+      "next": 0
+    },
+    "generic_evidence_signals": [
+      "Applies the health/physical-education concept accurately in a realistic scenario",
+      "Explains or demonstrates it with sound reasoning"
+    ],
+    "framework_lineage": null
+  },
+  {
+    "uid": "std:clks:9.1.12.CDM.1",
+    "code": "9.1.12.CDM.1",
+    "area": "clks",
+    "area_name": "Career Readiness, Life Literacies & Key Skills",
+    "label": "Identify the purposes, advantages, and disadvantages of debt",
+    "grades": [
+      "9-12"
+    ],
+    "current": true,
+    "status": "Current",
+    "source_url": "https://www.nj.gov/education/standards/clicks/",
+    "source_url_kind": "framework-directory",
+    "frameworks": [
+      "2020"
+    ],
+    "versions": [],
+    "relationship_count": 3,
+    "relationship_counts": {
+      "Supports": 1,
+      "Reinforces": 2,
+      "Next": 0
+    },
+    "aedifica_view": "Identify the purposes, advantages, and disadvantages of debt.",
+    "domain": "CDM",
+    "public_relationship_buckets": {
+      "supports": 1,
+      "reinforces": 2,
+      "next": 0
+    },
+    "generic_evidence_signals": [
+      "Applies the concept accurately to a realistic personal-finance or career scenario",
+      "Justifies the decision with sound reasoning"
+    ],
+    "framework_lineage": null
+  },
+  {
+    "uid": "std:compsci:8.1.12.AP.1",
+    "code": "8.1.12.AP.1",
+    "area": "compsci",
+    "area_name": "Computer Science & Design Thinking",
+    "label": "Design algorithms that combine original and existing algorithms to solve computational problems",
+    "grades": [
+      "9-12"
+    ],
+    "current": true,
+    "status": "Current",
+    "source_url": "https://www.nj.gov/education/standards/cs/",
+    "source_url_kind": "framework-directory",
+    "frameworks": [
+      "2020"
+    ],
+    "versions": [],
+    "relationship_count": 6,
+    "relationship_counts": {
+      "Supports": 1,
+      "Reinforces": 5,
+      "Next": 0
+    },
+    "aedifica_view": "Design algorithms that combine original and existing algorithms to solve computational problems.",
+    "domain": "AP",
+    "public_relationship_buckets": {
+      "supports": 1,
+      "reinforces": 5,
+      "next": 0
+    },
+    "generic_evidence_signals": [
+      "Produces the artifact, program, or design meeting the requirements",
+      "Tests and refines it from feedback"
+    ],
+    "framework_lineage": null
+  },
+  {
+    "uid": "std:ela:L.KL.11-12.2",
+    "code": "L.KL.11-12.2",
+    "area": "ela",
+    "area_name": "English Language Arts",
+    "label": "Apply knowledge of language to understand how language functions in different contexts, to make effective choices for meaning or style, and to comprehend more fully when reading or listening.",
+    "grades": [
+      "11-12"
+    ],
+    "current": true,
+    "status": "Current",
+    "source_url": "https://www.nj.gov/education/standards/ela/2023/",
+    "source_url_kind": "framework-directory",
+    "frameworks": [
+      "2023"
+    ],
+    "versions": [
+      "2023"
+    ],
+    "relationship_count": 2,
+    "relationship_counts": {
+      "Supports": 1,
+      "Reinforces": 1,
+      "Next": 0
+    },
+    "aedifica_view": "Apply knowledge of how language functions in different contexts to make effective choices for meaning or style and to comprehend more fully.",
+    "domain": "L",
+    "public_relationship_buckets": {
+      "supports": 1,
+      "reinforces": 1,
+      "next": 0
+    },
+    "generic_evidence_signals": [
+      "Uses the convention accurately in original writing or speech",
+      "Explains the choice and its effect"
+    ],
+    "framework_lineage": null,
+    "official_text_source": "2023 NJSLS-ELA",
+    "official_components": [
+      {
+        "label": "A",
+        "text": "Acquire and use accurately general academic and domain-specific words and phrases, sufficient for reading, writing, speaking, and listening at the college and career readiness level."
+      },
+      {
+        "label": "B",
+        "text": "Vary syntax for effect, apply an understanding of syntax to the study of complex texts."
+      },
+      {
+        "label": "C",
+        "text": "Demonstrate independence in gathering vocabulary knowledge when considering a word or phrase important to comprehension or expression."
+      }
+    ]
+  },
+  {
+    "uid": "std:math:6.EE.A.1",
+    "code": "6.EE.A.1",
+    "area": "math",
+    "area_name": "Mathematics",
+    "label": "Write and evaluate numerical expressions with whole-number exponents.",
+    "grades": [
+      "6"
+    ],
+    "current": true,
+    "status": "Current",
+    "source_url": "https://www.nj.gov/education/standards/math/2023/6.shtml",
+    "source_url_kind": "record-specific",
+    "frameworks": [
+      "2023 New Jersey Student Learning Standards — Mathematics"
+    ],
+    "versions": [
+      "2023"
+    ],
+    "relationship_count": 6,
+    "relationship_counts": {
+      "Supports": 0,
+      "Reinforces": 2,
+      "Next": 4
+    },
+    "aedifica_view": "Write and evaluate numerical expressions containing whole-number exponents.",
+    "domain": "Expressions & Equations",
+    "public_relationship_buckets": {
+      "supports": 0,
+      "reinforces": 2,
+      "next": 4
+    },
+    "generic_evidence_signals": [
+      "Writes repeated multiplication as a power",
+      "Evaluates a whole-number power (e.g. 2^4 = 16)"
+    ],
+    "framework_lineage": {
+      "available": true,
+      "state_authority": {
+        "framework_id": "nj:njsls-m:2023",
+        "framework_name": "2023 New Jersey Student Learning Standards — Mathematics",
+        "version": "2023",
+        "publisher": "New Jersey Department of Education",
+        "authority_role": "STATE_AUTHORITATIVE",
+        "official_url": "https://www.nj.gov/education/standards/math/2023/6.shtml"
+      },
+      "national_lineage": [
+        {
+          "framework_id": "national:ccss-m:2010",
+          "framework_name": "Common Core State Standards for Mathematics",
+          "authority_role": "NATIONAL_FRAMEWORK_LINEAGE",
+          "source_url": "https://corestandards.org/mathematics-standards/",
+          "relation_type": "EXACT_NORMALIZED_CODE_MATCH",
+          "correspondence_status": "code-verified",
+          "claim_boundary": "The normalized standard code appears in the official CCSS-M code inventory. Exact wording equivalence is not asserted from code identity alone."
+        }
+      ],
+      "exact_cross_framework_connections": "pro-entitlement-required",
+      "exact_relationships": "pro-entitlement-required"
+    }
+  },
+  {
+    "uid": "std:science:HS-ESS1-1",
+    "code": "HS-ESS1-1",
+    "area": "science",
+    "area_name": "Science",
+    "label": "Model how the sun's lifespan and nuclear fusion in its core release the energy that reaches Earth as radiation",
+    "grades": [
+      "9-12"
+    ],
+    "current": true,
+    "status": "Current",
+    "source_url": "https://www.nj.gov/education/standards/science/",
+    "source_url_kind": "framework-directory",
+    "frameworks": [
+      "2026"
+    ],
+    "versions": [
+      "2026"
+    ],
+    "relationship_count": 7,
+    "relationship_counts": {
+      "Supports": 0,
+      "Reinforces": 7,
+      "Next": 0
+    },
+    "aedifica_view": "Model how the sun's lifespan and nuclear fusion in its core release the energy that reaches Earth as radiation.",
+    "domain": "ESS",
+    "public_relationship_buckets": {
+      "supports": 0,
+      "reinforces": 7,
+      "next": 0
+    },
+    "generic_evidence_signals": [
+      "Builds a model or representation that captures the key relationships",
+      "Uses the model to explain or predict"
+    ],
+    "framework_lineage": {
+      "available": true,
+      "state_authority": {
+        "framework_id": "nj:njsls-s:2026",
+        "framework_name": "2026 New Jersey Student Learning Standards — Science",
+        "version": "2026",
+        "publisher": "New Jersey Department of Education",
+        "authority_role": "STATE_AUTHORITATIVE",
+        "official_url": "https://www.nj.gov/education/standards/science/2026/"
+      },
+      "national_lineage": [
+        {
+          "framework_id": "national:ngss:2013",
+          "framework_name": "Next Generation Science Standards",
+          "authority_role": "NATIONAL_FRAMEWORK_LINEAGE",
+          "source_url": "https://www.nextgenscience.org/",
+          "relation_type": "PERFORMANCE_EXPECTATION_CODE_LINEAGE",
+          "correspondence_status": "ngss-style-pe-code-aligned",
+          "claim_boundary": "The NJSLS-S performance expectation uses the NGSS performance-expectation code architecture. Exact wording equivalence to the 2013 NGSS text is not asserted by this layer without a record-level comparison."
+        }
+      ],
+      "exact_cross_framework_connections": "pro-entitlement-required",
+      "science_dimensions": {
+        "SEP": true,
+        "DCI": true,
+        "CCC": true,
+        "dci_family_from_code": "ESS1",
+        "per_standard_ccc_assignment_asserted": false
+      },
+      "exact_relationships": "pro-entitlement-required"
+    }
+  },
+  {
+    "uid": "std:socst:6.1.12.CivicsCM.14.a",
+    "code": "6.1.12.CivicsCM.14.a",
+    "area": "socst",
+    "area_name": "Social Studies",
+    "label": "Evaluate how community groups and state policies have increased the youth vote",
+    "grades": [
+      "9-12"
+    ],
+    "current": true,
+    "status": "Current",
+    "source_url": "https://www.nj.gov/education/standards/socst/",
+    "source_url_kind": "framework-directory",
+    "frameworks": [
+      "2020"
+    ],
+    "versions": [],
+    "relationship_count": 0,
+    "relationship_counts": {
+      "Supports": 0,
+      "Reinforces": 0,
+      "Next": 0
+    },
+    "aedifica_view": "Evaluate how community groups and state policies have increased the youth vote.",
+    "domain": "CGHR",
+    "public_relationship_buckets": {
+      "supports": 0,
+      "reinforces": 0,
+      "next": 0
+    },
+    "generic_evidence_signals": [
+      "Supports the claim with relevant primary/secondary evidence and sound reasoning",
+      "Considers multiple perspectives and historical context"
+    ],
+    "framework_lineage": null
+  },
+  {
+    "uid": "std:vpa:1.1.12acc.Cn10a",
+    "code": "1.1.12acc.Cn10a",
+    "area": "vpa",
+    "area_name": "Visual & Performing Arts",
+    "label": "Assess personal choreography and how personal experiences and exposure to various cultures influences individual, emotional, intellectual, and kinesthetic responses",
+    "grades": [
+      "9-12"
+    ],
+    "current": true,
+    "status": "Current",
+    "source_url": "https://www.nj.gov/education/standards/vpa/",
+    "source_url_kind": "record-specific",
+    "frameworks": [
+      "2020_operational"
+    ],
+    "versions": [
+      "2020_operational"
+    ],
+    "relationship_count": 2,
+    "relationship_counts": {
+      "Supports": 1,
+      "Reinforces": 0,
+      "Next": 1
+    },
+    "aedifica_view": "At the Accomplished level, students assess personal choreography and how personal experiences and exposure to various cultures influences individual, emotional, intellectual, and kinesthetic responses, connecting artistic choices to personal experience, culture, context, or meaning.",
+    "domain": "1D",
+    "public_relationship_buckets": {
+      "supports": 1,
+      "reinforces": 0,
+      "next": 1
+    },
+    "generic_evidence_signals": [
+      "Makes an accurate connection between artistic work and relevant experience or context",
+      "Explains how the connection deepens understanding, meaning, or artistic intent"
+    ],
+    "framework_lineage": null
+  },
+  {
+    "uid": "std:wl:7.1.AL.IPERS.1",
+    "code": "7.1.AL.IPERS.1",
+    "area": "wl",
+    "area_name": "World Languages",
+    "label": "Engage in extended conversations about personal, social, and professional topics, using paragraph-level speech and writing across major time frames.",
+    "grades": [
+      "9-12"
+    ],
+    "current": true,
+    "status": "Current",
+    "source_url": "https://www.nj.gov/education/standards/worldlang/Docs/2020NJSLS-WL.pdf",
+    "source_url_kind": "record-specific",
+    "frameworks": [
+      "2020_operational"
+    ],
+    "versions": [
+      "2020_operational"
+    ],
+    "relationship_count": 1,
+    "relationship_counts": {
+      "Supports": 1,
+      "Reinforces": 0,
+      "Next": 0
+    },
+    "aedifica_view": "Engage in extended conversations about personal, social, and professional topics, using paragraph-level speech and writing across major time frames.",
+    "domain": "7WL",
+    "public_relationship_buckets": {
+      "supports": 1,
+      "reinforces": 0,
+      "next": 0
+    },
+    "generic_evidence_signals": [
+      "Performs the communicative task at the Advanced Low proficiency level",
+      "Uses culturally appropriate language and evidence suitable to interpersonal communication"
+    ],
+    "framework_lineage": null
+  },
+  {
+    "uid": "std:ela:RL.CR.6.1",
+    "code": "RL.CR.6.1",
+    "area": "ela",
+    "area_name": "English Language Arts",
+    "label": "Cite textual evidence and make relevant connections to support analysis of what a literary text says explicitly as well as inferences drawn from the text.",
+    "grades": [
+      "6"
+    ],
+    "current": true,
+    "status": "Current",
+    "source_url": "https://www.nj.gov/education/standards/ela/2023/6.shtml",
+    "source_url_kind": "record-specific",
+    "frameworks": [
+      "2023 New Jersey Student Learning Standards — English Language Arts"
+    ],
+    "versions": [
+      "2023"
+    ],
+    "relationship_count": 2,
+    "relationship_counts": {
+      "Supports": 0,
+      "Reinforces": 0,
+      "Next": 2
+    },
+    "aedifica_view": "Cite textual evidence and make connections to support analysis and inferences about a literary text.",
+    "domain": "Reading: Literature",
+    "public_relationship_buckets": {
+      "supports": 0,
+      "reinforces": 0,
+      "next": 2
+    },
+    "generic_evidence_signals": [
+      "Selects textual evidence that supports a stated claim",
+      "Draws a valid inference and ties it to specific text"
+    ],
+    "framework_lineage": null,
+    "official_text_source": "2023 NJSLS-ELA",
+    "official_components": []
+  },
+  {
+    "uid": "std:ela:W.AW.11-12.1",
+    "code": "W.AW.11-12.1",
+    "area": "ela",
+    "area_name": "English Language Arts",
+    "label": "Write arguments to support claims in an analysis of substantive topics or texts, using valid reasoning and relevant and sufficient evidence.",
+    "grades": [
+      "11-12"
+    ],
+    "current": true,
+    "status": "Current",
+    "source_url": "https://www.nj.gov/education/standards/ela/2023/",
+    "source_url_kind": "framework-directory",
+    "frameworks": [
+      "2023"
+    ],
+    "versions": [
+      "2023"
+    ],
+    "relationship_count": 1,
+    "relationship_counts": {
+      "Supports": 1,
+      "Reinforces": 0,
+      "Next": 0
+    },
+    "aedifica_view": "Write arguments that support claims with valid reasoning and sufficient evidence, avoiding logical fallacies and anticipating the audience's knowledge, values, and biases.",
+    "domain": "W",
+    "public_relationship_buckets": {
+      "supports": 1,
+      "reinforces": 0,
+      "next": 0
+    },
+    "generic_evidence_signals": [
+      "Produces the writing or presentation meeting the criteria",
+      "Revises based on evidence and feedback"
+    ],
+    "framework_lineage": null,
+    "official_text_source": "2023 NJSLS-ELA",
+    "official_components": [
+      {
+        "label": "A",
+        "text": "Introduce precise, knowledgeable claim(s), establish the significance of the claim(s), distinguish the claim(s) from alternate or opposing claims, and create an organization that logically sequences claim(s), counterclaims, reasons, and evidence."
+      },
+      {
+        "label": "B",
+        "text": "Develop claim(s) and counterclaims avoiding common logical fallacies and using sound reasoning and thoroughly, supplying the most relevant evidence for each while pointing out the strengths and limitations of both in a manner that anticipates the audience’s knowledge level, concerns, values, and possible biases."
+      },
+      {
+        "label": "C",
+        "text": "Use transitions (e.g., words, phrases, clauses) to link the major sections of the text, create cohesion, and clarify the relationships between claim(s) and reasons, between reasons and evidence, and between claim(s) and counterclaims."
+      },
+      {
+        "label": "D",
+        "text": "Establish and maintain a style and tone appropriate to the audience and purpose (e.g., formal and objective for academic writing) while attending to the norms and conventions of the discipline in which they are writing."
+      },
+      {
+        "label": "E",
+        "text": "Provide a concluding paragraph or section that supports the argument presented (e.g., articulating implications or the significance of the topic)."
+      }
+    ]
+  },
+  {
+    "uid": "std:ela:WHST.9-10.1",
+    "code": "WHST.9-10.1",
+    "area": "ela",
+    "area_name": "English Language Arts",
+    "label": "Write discipline-specific arguments that support claims with valid reasoning and relevant, sufficient textual and non-textual evidence",
+    "grades": [
+      "9-10"
+    ],
+    "current": false,
+    "status": "Historical / non-current",
+    "source_url": "https://www.nj.gov/education/standards/ela/2023/",
+    "source_url_kind": "framework-directory",
+    "frameworks": [
+      "2016 (companion)"
+    ],
+    "versions": [],
+    "relationship_count": 1,
+    "relationship_counts": {
+      "Supports": 0,
+      "Reinforces": 1,
+      "Next": 0
+    },
+    "aedifica_view": "Write discipline-specific arguments that support claims with valid reasoning and relevant, sufficient textual and non-textual evidence.",
+    "domain": "CWHST",
+    "public_relationship_buckets": {
+      "supports": 0,
+      "reinforces": 1,
+      "next": 0
+    },
+    "generic_evidence_signals": [
+      "Applies the literacy skill accurately to a discipline-specific text or task",
+      "Demonstrates it in reading or writing within history/science/technical work"
+    ],
+    "framework_lineage": null
+  },
+  {
+    "uid": "std:math:8.EE.C.7",
+    "code": "8.EE.C.7",
+    "area": "math",
+    "area_name": "Mathematics",
+    "label": "Solve linear equations in one variable.",
+    "grades": [
+      "8"
+    ],
+    "current": true,
+    "status": "Current",
+    "source_url": "https://www.nj.gov/education/standards/math/2023/8.shtml",
+    "source_url_kind": "record-specific",
+    "frameworks": [
+      "2023 New Jersey Student Learning Standards — Mathematics"
+    ],
+    "versions": [
+      "2023"
+    ],
+    "relationship_count": 13,
+    "relationship_counts": {
+      "Supports": 4,
+      "Reinforces": 1,
+      "Next": 8
+    },
+    "aedifica_view": "Solve one-variable linear equations, including recognizing one, infinitely many, or no solutions.",
+    "domain": "Expressions & Equations",
+    "public_relationship_buckets": {
+      "supports": 4,
+      "reinforces": 1,
+      "next": 8
+    },
+    "generic_evidence_signals": [
+      "Solves equations requiring distribution and combining like terms",
+      "Reduces an equation to x=a, a=a, or a=b"
+    ],
+    "framework_lineage": {
+      "available": true,
+      "state_authority": {
+        "framework_id": "nj:njsls-m:2023",
+        "framework_name": "2023 New Jersey Student Learning Standards — Mathematics",
+        "version": "2023",
+        "publisher": "New Jersey Department of Education",
+        "authority_role": "STATE_AUTHORITATIVE",
+        "official_url": "https://www.nj.gov/education/standards/math/2023/8.shtml"
+      },
+      "national_lineage": [
+        {
+          "framework_id": "national:ccss-m:2010",
+          "framework_name": "Common Core State Standards for Mathematics",
+          "authority_role": "NATIONAL_FRAMEWORK_LINEAGE",
+          "source_url": "https://corestandards.org/mathematics-standards/",
+          "relation_type": "EXACT_NORMALIZED_CODE_MATCH",
+          "correspondence_status": "code-verified",
+          "claim_boundary": "The normalized standard code appears in the official CCSS-M code inventory. Exact wording equivalence is not asserted from code identity alone."
+        }
+      ],
+      "exact_cross_framework_connections": "pro-entitlement-required",
+      "exact_relationships": "pro-entitlement-required"
+    }
+  }
+]

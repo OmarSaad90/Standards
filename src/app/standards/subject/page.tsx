@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: 'Subjects',
   description:
     'Browse the nine New Jersey subject areas covered by the Aedifica Standards Explorer, with current standard counts for each.',
-  alternates: { canonical: '/subjects' },
+  alternates: { canonical: '/standards/subject' },
 }
 
 export default function SubjectsPage() {
@@ -28,7 +28,7 @@ export default function SubjectsPage() {
 
         <div className="dirlist">
           {subjects.map((s) => (
-            <Link className="dirrow" href={`/subjects/${s.slug}`} key={s.slug}>
+            <Link className="dirrow" href={`/standards/subject/${s.slug}`} key={s.slug}>
               <div>
                 <h3>{s.name}</h3>
                 <p className="tiny muted" style={{ marginTop: 6 }}>

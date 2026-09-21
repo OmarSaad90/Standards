@@ -1,0 +1,24 @@
+{
+  "receipt_type": "OWNER_FREEZE_EXTERNAL_RECEIPT",
+  "artifact": "Aedifica Free Standards \u2194 Relationships Integration v1.0.5 \u2014 ELA Official Text Fidelity",
+  "freeze_date": "2026-09-20",
+  "status": "OWNER_ACCEPTED_FROZEN_IMMUTABLE_CANDIDATE_STATE",
+  "candidate_html_sha256": "ff135cdff38c6085d4710c2abf021389f05398466f38129eec485eaee4ec7e33",
+  "deployable_zip_sha256": "6c578c2107af6436968dc170287270b239313943c3a53d76c72dc264d7901e99",
+  "build_audit_sha256": "38d380f7719ee7b57074a13a5c137513445a1f37952d10f933710c65b95c712d",
+  "change_ledger_sha256": "b4020d2981c06363e070047e132a9a61b338dc4732ca33096fa24c00ee10cf24",
+  "source_authority_sha256": "f5f232ff1826feb15d778a02a008ae9c4db3b1b26e0397897af07369600a2390",
+  "freeze_declaration_sha256": "0568da1fb18450a645899cafaf45ffb965ae24d44e394af830f7228f79eedb51",
+  "freeze_manifest_sha256": "912990619e93bb86d6bfa28b45ff2ce10f20e049a7aa742d961ea6a24099c233",
+  "sha256sums_sha256": "5613de6037fc1937b9c036a6f3653181b5e2a976d2128eb5ccb70108d28b07e4",
+  "formal_freeze_bundle": {
+    "filename": "Aedifica_Free_Standards_to_Relationships_Integration_v1_0_5_ELA_Official_Text_Fidelity_Owner_Freeze_v1_0.zip",
+    "sha256": "941c0de46df51d44a9fa79a80a6466a4d74367429555c1c7b3259f0a4c23621e",
+    "bytes": 5243823,
+    "zip_crc_clean": true,
+    "internal_sha256sums_verified": true
+  },
+  "independent_claude_reaudit_status": "NOT_COMPLETED_NOT_CLAIMED",
+  "browser_engine_acceptance": "NOT_CERTIFIED",
+  "target_host_certification": "OPEN_NOT_CERTIFIED"
+}

@@ -1,0 +1,20 @@
+{
+  "math": {
+    "key": "math",
+    "label": "NJDOE Mathematics PCS",
+    "title": "Prerequisite standards & learning objectives",
+    "status": "6–8 + ALGEBRA I + GEOMETRY SOURCE MAPPED",
+    "description": "Aedifica has extracted direct prerequisite/previous-standard entries from the official NJDOE Grade 6–8, Algebra I, and Geometry Domain PCS tables into a separate public source-evidence layer.",
+    "future": "The source family is based on 2016 NJSLS-M. Current display records code continuity separately and does not infer exact 2016→2023 wording equivalence.",
+    "source": "https://www.nj.gov/education/standards/math/mathcurriculum.shtml"
+  },
+  "ela": {
+    "key": "ela",
+    "label": "NJDOE ELA PCS",
+    "title": "Prerequisite concepts & skills support",
+    "status": "LINK PROVENANCE VERIFIED · PRIMARY BYTES OPEN",
+    "description": "Aedifica has 25 Grades 6–12 historical NJDOE ELA PCS records verified at the link-provenance-only tier. Live-primary bytes recovered: 0. Archived-primary bytes recovered: 0. ELA pair mappings: 0. Primary-byte recovery remains OPEN.",
+    "future": "If governing primary or archived-primary content is recovered and admitted in a separately governed successor, Previous Grade, Supporting Standard, and Focus Standard evidence will be preserved as distinct source categories rather than automatically converted into Math-style directed prerequisite edges.",
+    "source": "https://www.nj.gov/education/acceleration/resources/"
+  }
+}

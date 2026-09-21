@@ -1,9 +1,9 @@
 /**
  * The ONLY shape of a standard that may reach the browser.
  *
- * Field list is fixed by 05_PUBLIC_DATA_AND_API_CONTRACT.md and by
- * contracts/public_api_openapi_v1_0_0.yaml (`additionalProperties: false`).
- * Adding a field here without updating both of those is a contract break.
+ * Field list is fixed by handoffv2/05_DEVELOPER_INSTRUCTIONS/03_PUBLIC_DATA_CONTRACT.md
+ * and handoffv2/02_PUBLIC_DATA/phase1_field_allowlist.json. Adding a field here without
+ * updating both of those is a contract break.
  */
 
 export interface RelationshipCounts {
@@ -11,6 +11,17 @@ export interface RelationshipCounts {
   reinforces: number
   next: number
   total: number
+}
+
+export interface RelationshipCountsTitleCase {
+  Supports: number
+  Reinforces: number
+  Next: number
+}
+
+export interface OfficialComponent {
+  label: string
+  text: string
 }
 
 export interface NationalLineage {
@@ -55,8 +66,12 @@ export interface PublicStandard {
   source_url_kind: string | null
   aedifica_view: string
   generic_evidence_signals: string[]
-  relationship_signals: RelationshipCounts
+  relationship_count: number
+  relationship_counts: RelationshipCountsTitleCase
+  public_relationship_buckets: { supports: number; reinforces: number; next: number }
   framework_lineage: FrameworkLineage | null
+  official_text_source?: string | null
+  official_components?: OfficialComponent[]
 }
 
 export interface AreaMeta {
@@ -75,7 +90,13 @@ export interface PublicMeta {
 export type StatusFilter = 'current' | 'historical' | 'all'
 export type Band = 'middle' | 'high'
 
-/** Exact allowed top-level keys. Anything else is a boundary violation. */
+/**
+ * Exact allowed top-level keys. Anything else is a boundary violation.
+ *
+ * Matches handoffv2/02_PUBLIC_DATA/phase1_field_allowlist.json (21 fields). That file
+ * also names three fields explicitly excluded from the Phase 1 payload: app_count,
+ * programs, curriculum_preview. They must never appear here.
+ */
 export const ALLOWED_STANDARD_KEYS: ReadonlySet<string> = new Set([
   'uid',
   'code',
@@ -85,13 +106,17 @@ export const ALLOWED_STANDARD_KEYS: ReadonlySet<string> = new Set([
   'grades',
   'current',
   'status',
-  'domain',
-  'frameworks',
-  'versions',
   'source_url',
   'source_url_kind',
+  'frameworks',
+  'versions',
+  'relationship_count',
+  'relationship_counts',
   'aedifica_view',
+  'domain',
+  'public_relationship_buckets',
   'generic_evidence_signals',
-  'relationship_signals',
   'framework_lineage',
+  'official_text_source',
+  'official_components',
 ])

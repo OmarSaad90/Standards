@@ -1,0 +1,75 @@
+{
+  "artifact": "Aedifica Free Standards ↔ Relationships Integration v1.0.5 — ELA Official Text Fidelity Owner Freeze v1.0",
+  "freeze_date": "2026-09-20",
+  "status": "OWNER_ACCEPTED_FROZEN_IMMUTABLE_CANDIDATE_STATE",
+  "freeze_authorized": true,
+  "owner_authorization_text": "freeze this",
+  "independent_claude_reaudit_status": "NOT_COMPLETED_NOT_CLAIMED",
+  "browser_engine_acceptance": "NOT_CERTIFIED",
+  "target_host_certification": "OPEN_NOT_CERTIFIED",
+  "direct_parent": {
+    "artifact": "Aedifica Free Standards ↔ Relationships Integration v1.0.4",
+    "candidate_zip_sha256": "b820d49ad2f6bf08e5387a5f63b10e37ede5eff8fc5f3ec15349dc19f40fa2d6",
+    "deployable_zip_sha256": "6a757c6574c01cd6043546527b6cb786b900ba9334a10d85638cfb1a00453c6e",
+    "formal_lock_zip_sha256": "8e407471697857fca5a463a184b277053c1c1d3bb6ebbdbacd7433871bd56932"
+  },
+  "authoritative_artifacts": {
+    "candidate_html": {
+      "filename": "Aedifica_Free_Standards_to_Relationships_Integration_v1_0_5_ELA_Official_Text_Fidelity_Candidate.html",
+      "sha256": "ff135cdff38c6085d4710c2abf021389f05398466f38129eec485eaee4ec7e33",
+      "bytes": 3901736
+    },
+    "deployable_site_zip": {
+      "filename": "Aedifica_Free_Standards_to_Relationships_Integration_v1_0_5_ELA_Official_Text_Fidelity_Deployable_Site_Candidate.zip",
+      "sha256": "6c578c2107af6436968dc170287270b239313943c3a53d76c72dc264d7901e99",
+      "bytes": 5503470
+    },
+    "build_audit": {
+      "filename": "Aedifica_Free_Standards_to_Relationships_Integration_v1_0_5_ELA_Official_Text_Fidelity_Build_Audit.md",
+      "sha256": "38d380f7719ee7b57074a13a5c137513445a1f37952d10f933710c65b95c712d",
+      "bytes": 3579
+    },
+    "change_ledger": {
+      "filename": "Aedifica_Free_Standards_to_Relationships_Integration_v1_0_5_ELA_Official_Text_Fidelity_Change_Ledger.json",
+      "sha256": "b4020d2981c06363e070047e132a9a61b338dc4732ca33096fa24c00ee10cf24",
+      "bytes": 10615
+    },
+    "source_authority": {
+      "filename": "2023_NJSLS_ELA (2).docx",
+      "sha256": "f5f232ff1826feb15d778a02a008ae9c4db3b1b26e0397897af07369600a2390",
+      "bytes": 134412,
+      "role": "attached 2023 NJSLS-ELA authority used for the fidelity remediation"
+    }
+  },
+  "accepted_invariants": {
+    "current_ela_parent_expectations": 160,
+    "current_ela_code_coverage": "160/160",
+    "ela_standards_with_lettered_components": 40,
+    "official_lettered_component_items": 183,
+    "historical_ela_records": 58,
+    "non_ela_record_changes": 0,
+    "historical_ela_record_changes": 0,
+    "supports": 1420,
+    "reinforces": 2424,
+    "next": 1420,
+    "endpoint_incidences": 5264
+  },
+  "immutability": {
+    "same_version_modification_prohibited": true,
+    "same_version_overwrite_prohibited": true,
+    "same_version_repackaging_prohibited": true,
+    "same_version_recompression_prohibited": true,
+    "hash_rebinding_prohibited": true,
+    "silent_replacement_prohibited": true,
+    "future_changes_require_versioned_successor": true
+  },
+  "claim_boundaries": [
+    "No independent Claude re-audit PASS claimed.",
+    "No browser-engine acceptance claimed.",
+    "No target-host deployment certification claimed.",
+    "No production-security certification claimed.",
+    "No NJDOE approval claimed.",
+    "No district approval claimed.",
+    "No qualified-human educator validation claimed."
+  ]
+}

@@ -1,0 +1,22 @@
+import fs from "node:fs";
+import path from "node:path";
+import {fileURLToPath} from "node:url";
+const here=path.dirname(fileURLToPath(import.meta.url));
+const root=path.resolve(here,"..");
+const data=JSON.parse(fs.readFileSync(path.join(root,"02_PUBLIC_DATA/public_standards_phase1_v1_0_7.json"),"utf8"));
+const assert=(c,m)=>{if(!c)throw new Error(m)};
+const sum=(a,f)=>a.reduce((n,x)=>n+f(x),0);
+assert(data.length===2836,"total");
+assert(data.filter(x=>x.current).length===2757,"current");
+assert(data.filter(x=>!x.current).length===79,"noncurrent");
+assert(sum(data,x=>x.relationship_counts.Supports)===1420,"supports");
+assert(sum(data,x=>x.relationship_counts.Reinforces)===2424,"reinforces");
+assert(sum(data,x=>x.relationship_counts.Next)===1420,"next");
+const ela=data.filter(x=>x.area==="ela"), cur=ela.filter(x=>x.current);
+assert(ela.length===218 && cur.length===160,"ela");
+assert(cur.filter(x=>x.official_text_source==="2023 NJSLS-ELA").length===160,"ela markers");
+assert(cur.filter(x=>(x.official_components||[]).length).length===40,"component standards");
+assert(sum(cur,x=>(x.official_components||[]).length)===183,"components");
+for(const x of data){assert(!("app_count" in x)&&!("programs" in x)&&!("curriculum_preview" in x),"forbidden field")}
+assert(new Set(data.map(x=>x.uid)).size===data.length,"duplicate uid");
+console.log("PASS — Phase 1 Free Standards data verified.");

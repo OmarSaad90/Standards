@@ -2,8 +2,9 @@
 
 Public, no-login search for New Jersey Grades 6–12 education standards.
 
-Built to the specification in `handoff/`, the client-supplied developer handoff v1.0.0.
-Release 1.0.0, public dataset v2.8.1.
+Built to the specification in `handoffv2/`, dated 2026-09-20, which supersedes the
+original `handoff/` package (kept for reference; do not build against it).
+Release 1.0.0, public dataset v1.0.7 (`public_standards_phase1_v1_0_7.json`).
 
 ---
 
@@ -13,8 +14,10 @@ This deployment contains **only** public data. It does not contain, and must nev
 contain, Aedifica Pro, authentication, paid entitlements, Expanded/Disputed/Quarantine
 relationship records, customer curriculum overlays, or the protected relationship graph.
 
-The `/pro` page is marketing copy describing what Pro would provide. It has no
-functionality and reads no protected data.
+Pro is explicitly out of scope for this phase (`handoffv2/05_DEVELOPER_INSTRUCTIONS/`
+`01_SCOPE_AND_NON_GOALS.md`). The `/pro` and `/standards/[code]/learning` pages that
+previously existed have been removed; relationship counts show a static, non-navigating
+"Relationship intelligence coming soon" notice instead.
 
 ---
 
@@ -65,8 +68,10 @@ requires live route handlers with query parsing and real 400 responses.
 ## Layout
 
 ```
-handoff/       client-supplied spec, contracts, dataset and audit reports (read-only)
-data/          the locked v2.8.1 public dataset, byte-identical to handoff/data/
+handoff/       superseded developer handoff v1.0.0 (read-only, do not build against)
+handoffv2/     current spec: contracts, dataset and audit reports (read-only)
+data/          the public dataset in use, byte-identical to handoffv2/02_PUBLIC_DATA/
+data/archive/  the previous locked v2.8.1 dataset, kept for reference
 scripts/       build gates (integrity + leakage)
 src/lib/       data loading, search, slugs, serialisation
 src/app/       routes
@@ -80,18 +85,15 @@ reports/       generated at build time, gitignored
 |---|---|
 | `/` | static |
 | `/standards` | dynamic (reads query params) |
-| `/standards/{code}` | **static, all 2,833 pre-rendered** |
-| `/standards/{code}/learning` | dynamic |
-| `/subjects`, `/subjects/{subject}` | static |
-| `/grades`, `/grades/{grade-or-band}` | static |
-| `/pro`, `/about` | dynamic / static |
+| `/standards/{code}` | **static, all 2,836 pre-rendered** |
+| `/standards/subject`, `/standards/subject/{subject}` | static |
+| `/standards/grade`, `/standards/grade/{grade-or-band}` | static |
+| `/about` | static |
 | `/api/public/meta` | static |
 | `/api/public/standards` | dynamic |
 | `/api/public/standards/{code}` | dynamic |
 
-The 2,833 standard detail pages are the pages that rank, so they are pre-rendered.
-Learning pages are rendered on demand: pre-rendering them would double the build for
-a view carrying no crawlable information the detail page does not already expose.
+The 2,836 standard detail pages are the pages that rank, so they are pre-rendered.
 
 ---
 
@@ -106,19 +108,24 @@ comparison. See "Known data issue" below.
 
 ---
 
-## Known data issue in the locked dataset
+## Known data issue in the dataset
 
-485 of the 2,833 codes (17%) use **U+2010 HYPHEN** rather than ASCII hyphen-minus,
-and one code (`9.3. 12.ED‐TT.7`) carries a stray space.
+484 of the 2,836 codes (17%) use **U+2010 HYPHEN** rather than ASCII hyphen-minus,
+and two codes carry a stray space (e.g. `9.3. 12.ED‐TT.7`). Confirmed present,
+unchanged, in both the original locked v2.8.1 dataset and the current handoffv2
+`public_standards_phase1_v1_0_7.json` — this is a client-side data defect, not
+something introduced by either build.
 
-In the locked prototype this silently breaks exact-code search for all 485. Its
-normaliser maps U+2010 to a space, so the stored code becomes `9.3.12.ac cst.1`
-while a user typing the same code produces `9.3.12.ac-cst.1`, and the two never match.
+In the client's own prototype this silently breaks exact-code search for all
+affected records: its normaliser maps U+2010 to a space, so the stored code becomes
+`9.3.12.ac cst.1` while a user typing the same code produces `9.3.12.ac-cst.1`, and
+the two never match. The client's own `verify_phase1_data.mjs` acceptance script does
+not check for this either, so it will keep shipping unnoticed on his side.
 
 Handled here without touching the dataset:
 
 1. URL slugs fold U+2010 to `-` and drop whitespace, so `/standards/9.3.12.AC-CST.1`
-   works. Verified zero slug collisions across all 2,833 codes.
+   works. Verified zero slug collisions across all 2,836 codes.
 2. Lookup and search fold every common dash variant before comparing, so both the
    typed form and the stored form resolve.
 
@@ -142,20 +149,25 @@ Two deliberate departures from the prototype, both marked in `globals.css`:
 
 ## Changing the data
 
-Don't, in place. `10_DEFINITION_OF_DONE.md` and `09_DEPLOYMENT_RUNBOOK.md` both require
-that any public-data change becomes a new versioned release, not a silent update.
+Don't, in place. `handoffv2/05_DEVELOPER_INSTRUCTIONS/12_CHANGE_CONTROL.md` requires
+that any public-data change becomes a new versioned release, not a silent update, and
+requires owner review before changing fields like `code` or relationship counts.
 
 To ship new data: drop in the new export, update `EXPECTED_SHA256`, `EXPECTED_TOTAL`,
-and `EXPECTED_CURRENT` in `scripts/verify-data.mjs`, update `DATA_VERSION` in
-`src/lib/config.ts`, bump the release version, rebuild, and re-run acceptance.
+`EXPECTED_CURRENT`, and the relationship-sum constants in `scripts/verify-data.mjs`,
+update `DATA_VERSION` in `src/lib/config.ts`, bump the release version, rebuild, and
+re-run acceptance.
 
 ---
 
 ## Still open
 
-- Whether `/pro` gets a contact or waitlist CTA. It is currently a dead end, exactly as
-  in the prototype. Marked with a comment in `src/app/pro/page.tsx`.
+- The default-only relationship count question: public Supports/Reinforces/Next counts
+  include all relationship tiers, not just the client's policy-eligible `DEFAULT` tier.
+  Reported 2026-08-20, still unresolved as of the handoffv2 dataset. See
+  `docs/QA-REPORT.md`.
+- The U+2010 hyphen defect above, still unreported upstream.
 - Fonts. The prototype asks for Canela and Söhne, both commercially licensed. The
   client's own fallback stacks (Georgia, Arial) are in place and render fine.
-- Analytics. Six events are named in the handoff; no tool has been chosen.
+- Analytics. Events named in the original handoff; no tool has been chosen.
 - Independent accessibility audit.

@@ -3,7 +3,7 @@ import type { Metadata } from 'next'
 import { bands, gradeTokens, standardsInGradeToken } from '@/lib/data'
 import { gradeLabel, isBandSlug } from '@/lib/slugs'
 import { parseQueryLenient, runQuery } from '@/lib/search'
-import { ResultList, Pager } from '@/components/Results'
+import { ResultList, Pager, ActiveFilterChips, type ActiveFilter } from '@/components/Results'
 import { Breadcrumb } from '@/components/SiteChrome'
 
 type SP = Record<string, string | string[] | undefined>
@@ -31,7 +31,7 @@ export async function generateMetadata({
   return {
     title: gradeLabel(slug),
     description: `New Jersey standards for ${gradeLabel(slug)}, with authoritative sources, Aedifica View, and aggregate learning-context signals.`,
-    alternates: { canonical: `/grades/${encodeURIComponent(slug)}` },
+    alternates: { canonical: `/standards/grade/${encodeURIComponent(slug)}` },
   }
 }
 
@@ -51,14 +51,23 @@ export default async function GradePage({
   const query = parseQueryLenient(sp)
   const result = runQuery({ ...query, band: '', grade: '' }, pool)
 
-  const hrefFor = (page: number) => {
+  const hrefFor = (page: number, omit?: 'status' | 'subject') => {
     const p = new URLSearchParams()
-    if (query.status !== 'current') p.set('status', query.status)
-    if (query.subject) p.set('subject', query.subject)
+    if (query.status !== 'current' && omit !== 'status') p.set('status', query.status)
+    if (query.subject && omit !== 'subject') p.set('subject', query.subject)
     if (page > 1) p.set('page', String(page))
     const qs = p.toString()
-    const base = `/grades/${encodeURIComponent(slug)}`
+    const base = `/standards/grade/${encodeURIComponent(slug)}`
     return qs ? `${base}?${qs}` : base
+  }
+
+  const filters: ActiveFilter[] = []
+  if (query.subject) filters.push({ label: query.subject, href: hrefFor(1, 'subject') })
+  if (query.status !== 'current') {
+    filters.push({
+      label: query.status === 'all' ? 'Current + historical' : 'Historical only',
+      href: hrefFor(1, 'status'),
+    })
   }
 
   return (
@@ -67,7 +76,7 @@ export default async function GradePage({
         <Breadcrumb
           items={[
             { label: 'Explorer', href: '/' },
-            { label: 'Grades', href: '/grades' },
+            { label: 'Grades', href: '/standards/grade' },
             { label: gradeLabel(slug) },
           ]}
         />
@@ -83,6 +92,8 @@ export default async function GradePage({
           </div>
           <span className="countbadge">{result.total.toLocaleString()} found</span>
         </div>
+
+        <ActiveFilterChips filters={filters} />
 
         <ResultList items={result.items} />
         <Pager page={result.page} pages={result.pages} hrefFor={hrefFor} />

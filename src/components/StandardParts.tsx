@@ -1,9 +1,13 @@
 import type { PublicStandard, RelationshipCounts } from '@/lib/types'
+import type { MathPcsEntry } from '@/lib/pcsEvidence'
+import { getByCode } from '@/lib/data'
+import { codeSlug } from '@/lib/codes'
 
 /**
  * Aggregate relationship counts.
  *
- * 03_FREE_PRODUCT_REQUIREMENTS.md permits the counts and forbids the endpoints.
+ * handoffv2/05_DEVELOPER_INSTRUCTIONS/08_RELATIONSHIP_COUNTS_COMING_SOON_RULES.md
+ * permits the counts and forbids the endpoints.
  * Nothing here can render a connected standard, because no connected standard
  * exists in the public payload to render.
  */
@@ -28,35 +32,87 @@ export function MetricGrid({ r }: { r: RelationshipCounts }) {
   )
 }
 
-/** Blurred placeholders. Decorative only, never data driven beyond the count. */
-export function Ghosts({ n, label }: { n: number; label: string }) {
-  if (!n) {
-    return (
-      <div className="ghosts">
-        <div className="ghost">
-          <strong>No public {label} signal</strong>
-          <div className="blurline" />
-        </div>
-      </div>
-    )
-  }
-  const shown = Math.min(n, 3)
-  const remainder = n - shown
+/**
+ * Static, non-navigating notice. Text is exact per
+ * 08_RELATIONSHIP_COUNTS_COMING_SOON_RULES.md — must not link anywhere or expose
+ * anything beyond the aggregate counts already shown in MetricGrid.
+ */
+export function ComingSoonNotice() {
   return (
-    <div className="ghosts">
-      {Array.from({ length: shown }, (_, i) => (
-        <div className="ghost" key={i}>
-          <strong>Protected standard</strong>
-          <div className="blurline" />
-          <div className="blurline" style={{ width: `${52 + i * 11}%` }} />
-        </div>
-      ))}
-      {remainder > 0 && (
-        <div className="tiny muted" style={{ padding: '4px 2px' }}>
-          + {remainder} more protected connection{remainder === 1 ? '' : 's'}
+    <button type="button" className="cta" aria-disabled="true" disabled>
+      Relationship intelligence coming soon
+    </button>
+  )
+}
+
+/**
+ * NJDOE's own published Math prerequisite table for this standard, per
+ * handoffv2/05_DEVELOPER_INSTRUCTIONS/07_SOURCE_EVIDENCE_RULES.md: kept structurally
+ * separate from Aedifica's Supports/Reinforces/Next, never folded into that count and
+ * never described as an Aedifica signal. Renders only for the 161 math standards NJDOE
+ * publishes direct prerequisites for.
+ */
+export function MathPcsBlock({ entry }: { entry: MathPcsEntry }) {
+  return (
+    <article className="card">
+      <div className="micro muted">NJDOE prerequisite concepts &amp; skills (Math)</div>
+      <p className="tiny muted" style={{ marginTop: 8 }}>
+        Official NJDOE source table for Grade/Course {entry.source_grade_or_course}. Separate from
+        Aedifica&rsquo;s own Supports / Reinforces / Next signals above.
+      </p>
+      {entry.prerequisites.length > 0 ? (
+        <ul className="chips" style={{ flexDirection: 'column', alignItems: 'stretch', gap: 8, marginTop: 12, listStyle: 'none', padding: 0 }}>
+          {entry.prerequisites.map((p) => {
+            const target = getByCode(p.code)
+            return (
+              <li key={p.code} className="small">
+                {target ? (
+                  <a href={`/standards/${codeSlug(target.code)}`}>{p.code}</a>
+                ) : (
+                  <strong>{p.code}</strong>
+                )}
+                {p.current_label ? ` — ${p.current_label}` : ''}
+                {!target && <span className="tiny muted"> (outside current Grades 6-12 index)</span>}
+              </li>
+            )
+          })}
+        </ul>
+      ) : (
+        <p className="small muted" style={{ marginTop: 12 }}>
+          No direct prerequisite pairs are listed in the source table for this standard.
+        </p>
+      )}
+      <a className="sourcebtn" href={entry.source_url} target="_blank" rel="noopener noreferrer" style={{ marginTop: 16 }}>
+        Open NJDOE PCS source <span aria-hidden="true">&#8599;</span>
+      </a>
+    </article>
+  )
+}
+
+/**
+ * Official 2023 NJSLS-ELA wording, kept structurally separate from the Aedifica
+ * View card per 06_ELA_OFFICIAL_TEXT_RULES.md: never imply Aedifica View is NJDOE
+ * wording. Renders only when the record carries official_text_source.
+ */
+export function OfficialElaBlock({ s }: { s: PublicStandard }) {
+  if (!s.official_text_source) return null
+
+  return (
+    <article className="card">
+      <div className="micro muted">Official {s.official_text_source} wording</div>
+      <p className="indexlabel" style={{ marginTop: 8 }}>
+        {s.label}
+      </p>
+      {s.official_components && s.official_components.length > 0 && (
+        <div className="chips" style={{ flexDirection: 'column', alignItems: 'stretch', gap: 8, marginTop: 12 }}>
+          {s.official_components.map((c) => (
+            <p key={c.label} className="small">
+              <strong>{c.label}.</strong> {c.text}
+            </p>
+          ))}
         </div>
       )}
-    </div>
+    </article>
   )
 }
 

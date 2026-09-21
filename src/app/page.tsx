@@ -1,7 +1,9 @@
 import Link from 'next/link'
 import type { Metadata } from 'next'
 import { meta, subjectDirectory } from '@/lib/data'
+import { pcsGuidance } from '@/lib/pcsEvidence'
 import { SearchPanel } from '@/components/SearchPanel'
+import { NjdoeSourceEvidence } from '@/components/SourceEvidence'
 import { SITE_NAME, DEFAULT_DESCRIPTION } from '@/lib/config'
 
 export const metadata: Metadata = {
@@ -72,7 +74,7 @@ export default function HomePage() {
           </div>
           <div className="subjects">
             {subjects.map((s, i) => (
-              <Link className="subject" href={`/subjects/${s.slug}`} key={s.slug}>
+              <Link className="subject" href={`/standards/subject/${s.slug}`} key={s.slug}>
                 <span className="tiny muted">
                   <i
                     className="dot"
@@ -100,7 +102,8 @@ export default function HomePage() {
             <p>
               Free access shows the standard, source, Aedifica View, generic evidence signals,
               framework context, and aggregate Supports / Reinforces / Next counts. Exact connected
-              standards and relationship intelligence remain Aedifica Pro.
+              standards remain part of Aedifica&rsquo;s protected relationship intelligence, not yet
+              public.
             </p>
           </div>
           <div className="contextgrid">
@@ -128,6 +131,8 @@ export default function HomePage() {
             </article>
           </div>
         </div>
+
+        <NjdoeSourceEvidence entries={[pcsGuidance.math, pcsGuidance.ela]} />
       </div>
     </div>
   )

@@ -2,9 +2,10 @@
 * text=auto eol=lf
 
 # Byte-exact files. The build verifies the dataset SHA-256 against the value in
-# handoff/HANDOFF_MANIFEST.json, so any line-ending rewrite would fail the gate.
-data/public_data_v2_8_1_locked.json -text
+# handoffv2/SHA256SUMS.txt, so any line-ending rewrite would fail the gate.
+data/public_standards_phase1_v1_0_7.json -text
 handoff/** -text
+handoffv2/** -text
 
 # Generated, keeps diffs readable
 package-lock.json -diff

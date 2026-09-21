@@ -1,16 +1,16 @@
-import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import type { Metadata } from 'next'
 import { getByCode, standards } from '@/lib/data'
+import { getMathPcsEvidence } from '@/lib/pcsEvidence'
 import { codeSlug } from '@/lib/codes'
 import { subjectSlug } from '@/lib/slugs'
 import { SITE_NAME, SITE_URL } from '@/lib/config'
 import { Breadcrumb } from '@/components/SiteChrome'
-import { MetricGrid, LineageCards, Chips } from '@/components/StandardParts'
+import { MetricGrid, LineageCards, Chips, OfficialElaBlock, ComingSoonNotice, MathPcsBlock } from '@/components/StandardParts'
 
 export const dynamicParams = false
 
-/** All 2,833 standard pages are pre-rendered. These are the pages that rank. */
+/** All 2,836 standard pages are pre-rendered. These are the pages that rank. */
 export function generateStaticParams() {
   return standards.map((s) => ({ code: codeSlug(s.code) }))
 }
@@ -53,8 +53,9 @@ export default async function StandardPage({ params }: { params: Promise<{ code:
   const s = getByCode(decodeURIComponent(code))
   if (!s) notFound()
 
-  const r = s.relationship_signals
+  const r = { ...s.public_relationship_buckets, total: s.relationship_count }
   const slug = codeSlug(s.code)
+  const mathPcs = getMathPcsEvidence(s.code)
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -82,7 +83,7 @@ export default async function StandardPage({ params }: { params: Promise<{ code:
         <Breadcrumb
           items={[
             { label: 'Explorer', href: '/' },
-            { label: s.area_name, href: `/subjects/${subjectSlug(s.area_name)}` },
+            { label: s.area_name, href: `/standards/subject/${subjectSlug(s.area_name)}` },
             { label: s.code },
           ]}
         />
@@ -126,6 +127,22 @@ export default async function StandardPage({ params }: { params: Promise<{ code:
           </article>
         </div>
 
+        {s.official_text_source && (
+          <div className="section">
+            <div className="sectionhead">
+              <div>
+                <p className="eyebrow">Official source text</p>
+                <h2>The governing wording, verbatim.</h2>
+              </div>
+              <p>
+                Shown separately from the Aedifica View above; where the two differ, this official
+                wording controls.
+              </p>
+            </div>
+            <OfficialElaBlock s={s} />
+          </div>
+        )}
+
         <div className="section">
           <div className="sectionhead">
             <div>
@@ -160,6 +177,22 @@ export default async function StandardPage({ params }: { params: Promise<{ code:
           </div>
         </div>
 
+        {mathPcs && (
+          <div className="section">
+            <div className="sectionhead">
+              <div>
+                <p className="eyebrow">Source evidence</p>
+                <h2>What NJDOE lists as prerequisite.</h2>
+              </div>
+              <p>
+                Extracted directly from NJDOE&rsquo;s own Math PCS tables, separate from Aedifica&rsquo;s
+                own relationship signals below.
+              </p>
+            </div>
+            <MathPcsBlock entry={mathPcs} />
+          </div>
+        )}
+
         <div className="section">
           <div className="sectionhead">
             <div>
@@ -167,8 +200,8 @@ export default async function StandardPage({ params }: { params: Promise<{ code:
               <h2>The shape is public. The graph is protected.</h2>
             </div>
             <p>
-              These counts come from the same governed commercial graph used by Pro, but the exact
-              standard identities, rationale, provenance, and evidence stay protected.
+              These counts come from the same governed commercial graph, but the exact standard
+              identities, rationale, provenance, and evidence stay protected.
             </p>
           </div>
 
@@ -178,13 +211,11 @@ export default async function StandardPage({ params }: { params: Promise<{ code:
             <div>
               <h3>See the complete learning progression.</h3>
               <p>
-                Open the visual learning-around view. Public users see the governed shape; Aedifica
-                Pro unlocks the exact standards and relationship intelligence behind it.
+                Exact connected standards, direction, rationale, and provenance are part of
+                Aedifica&rsquo;s protected relationship intelligence and are not yet public.
               </p>
             </div>
-            <Link href={`/standards/${slug}/learning`}>
-              Explore learning around <span aria-hidden="true">&rarr;</span>
-            </Link>
+            <ComingSoonNotice />
           </div>
         </div>
       </div>

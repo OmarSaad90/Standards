@@ -1,0 +1,2394 @@
+{
+  "6.RP.A.1": {
+    "source_grade_or_course": "6",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Grade6.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "5.NF.B.5",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "OUTSIDE_AEDIFICA_GRADES_6_12_SCOPE",
+        "current_label": null
+      }
+    ]
+  },
+  "6.RP.A.2": {
+    "source_grade_or_course": "6",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Grade6.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "5.NF.B.3",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "OUTSIDE_AEDIFICA_GRADES_6_12_SCOPE",
+        "current_label": null
+      }
+    ]
+  },
+  "6.RP.A.3": {
+    "source_grade_or_course": "6",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Grade6.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "5.OA.B.3",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "OUTSIDE_AEDIFICA_GRADES_6_12_SCOPE",
+        "current_label": null
+      },
+      {
+        "code": "4.MD.A.1",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "OUTSIDE_AEDIFICA_GRADES_6_12_SCOPE",
+        "current_label": null
+      }
+    ]
+  },
+  "6.NS.A.1": {
+    "source_grade_or_course": "6",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Grade6.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "5.NF.B.7",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "OUTSIDE_AEDIFICA_GRADES_6_12_SCOPE",
+        "current_label": null
+      },
+      {
+        "code": "5.NF.B.4",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "OUTSIDE_AEDIFICA_GRADES_6_12_SCOPE",
+        "current_label": null
+      }
+    ]
+  },
+  "6.NS.B.2": {
+    "source_grade_or_course": "6",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Grade6.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "5.NBT.B.6",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "OUTSIDE_AEDIFICA_GRADES_6_12_SCOPE",
+        "current_label": null
+      }
+    ]
+  },
+  "6.NS.B.3": {
+    "source_grade_or_course": "6",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Grade6.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "5.NBT.B.7",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "OUTSIDE_AEDIFICA_GRADES_6_12_SCOPE",
+        "current_label": null
+      }
+    ]
+  },
+  "6.NS.B.4": {
+    "source_grade_or_course": "6",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Grade6.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "4.OA.B.4",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "OUTSIDE_AEDIFICA_GRADES_6_12_SCOPE",
+        "current_label": null
+      }
+    ]
+  },
+  "6.NS.C.5": {
+    "source_grade_or_course": "6",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Grade6.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "NO_DIRECT_PREREQUISITE_STANDARD_LISTED_NA",
+    "prerequisites": []
+  },
+  "6.NS.C.6": {
+    "source_grade_or_course": "6",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Grade6.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "5.G.A.1",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "OUTSIDE_AEDIFICA_GRADES_6_12_SCOPE",
+        "current_label": null
+      },
+      {
+        "code": "4.NF.A.2",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "OUTSIDE_AEDIFICA_GRADES_6_12_SCOPE",
+        "current_label": null
+      },
+      {
+        "code": "3.NF.A.2",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "OUTSIDE_AEDIFICA_GRADES_6_12_SCOPE",
+        "current_label": null
+      }
+    ]
+  },
+  "6.NS.C.7": {
+    "source_grade_or_course": "6",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Grade6.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "NO_DIRECT_PREREQUISITE_STANDARD_LISTED_NA",
+    "prerequisites": []
+  },
+  "6.NS.C.8": {
+    "source_grade_or_course": "6",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Grade6.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "5.G.A.2",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "OUTSIDE_AEDIFICA_GRADES_6_12_SCOPE",
+        "current_label": null
+      }
+    ]
+  },
+  "6.EE.A.1": {
+    "source_grade_or_course": "6",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Grade6.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "5.NBT.A.2",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "OUTSIDE_AEDIFICA_GRADES_6_12_SCOPE",
+        "current_label": null
+      }
+    ]
+  },
+  "6.EE.A.2": {
+    "source_grade_or_course": "6",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Grade6.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "5.OA.A.2",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "OUTSIDE_AEDIFICA_GRADES_6_12_SCOPE",
+        "current_label": null
+      },
+      {
+        "code": "5.OA.B.3",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "OUTSIDE_AEDIFICA_GRADES_6_12_SCOPE",
+        "current_label": null
+      }
+    ]
+  },
+  "6.EE.A.3": {
+    "source_grade_or_course": "6",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Grade6.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "3.OA.B.5",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "OUTSIDE_AEDIFICA_GRADES_6_12_SCOPE",
+        "current_label": null
+      }
+    ]
+  },
+  "6.EE.A.4": {
+    "source_grade_or_course": "6",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Grade6.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "NO_DIRECT_PREREQUISITE_STANDARD_LISTED_NA",
+    "prerequisites": []
+  },
+  "6.EE.B.5": {
+    "source_grade_or_course": "6",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Grade6.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "NO_DIRECT_PREREQUISITE_STANDARD_LISTED_NA",
+    "prerequisites": []
+  },
+  "6.EE.B.6": {
+    "source_grade_or_course": "6",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Grade6.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "NO_DIRECT_PREREQUISITE_STANDARD_LISTED_NA",
+    "prerequisites": []
+  },
+  "6.EE.B.7": {
+    "source_grade_or_course": "6",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Grade6.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "5.NF.A.1",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "OUTSIDE_AEDIFICA_GRADES_6_12_SCOPE",
+        "current_label": null
+      },
+      {
+        "code": "5.NF.B.4",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "OUTSIDE_AEDIFICA_GRADES_6_12_SCOPE",
+        "current_label": null
+      },
+      {
+        "code": "6.NS.A.1",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE_SAME_GRADE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Interpret and compute division of fractions by fractions in contextual problems."
+      }
+    ]
+  },
+  "6.EE.B.8": {
+    "source_grade_or_course": "6",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Grade6.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "NO_DIRECT_PREREQUISITE_STANDARD_LISTED_NA",
+    "prerequisites": []
+  },
+  "6.EE.C.9": {
+    "source_grade_or_course": "6",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Grade6.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "5.OA.A.2",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "OUTSIDE_AEDIFICA_GRADES_6_12_SCOPE",
+        "current_label": null
+      }
+    ]
+  },
+  "6.G.A.1": {
+    "source_grade_or_course": "6",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Grade6.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "4.MD.A.3",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "OUTSIDE_AEDIFICA_GRADES_6_12_SCOPE",
+        "current_label": null
+      },
+      {
+        "code": "3.MD.C.7",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "OUTSIDE_AEDIFICA_GRADES_6_12_SCOPE",
+        "current_label": null
+      }
+    ]
+  },
+  "6.G.A.2": {
+    "source_grade_or_course": "6",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Grade6.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "5.MD.C.5",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "OUTSIDE_AEDIFICA_GRADES_6_12_SCOPE",
+        "current_label": null
+      }
+    ]
+  },
+  "6.G.A.3": {
+    "source_grade_or_course": "6",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Grade6.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "5.G.A.2",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "OUTSIDE_AEDIFICA_GRADES_6_12_SCOPE",
+        "current_label": null
+      }
+    ]
+  },
+  "6.G.A.4": {
+    "source_grade_or_course": "6",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Grade6.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "NO_DIRECT_PREREQUISITE_STANDARD_LISTED_NA",
+    "prerequisites": []
+  },
+  "6.SP.A.1": {
+    "source_grade_or_course": "6",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Grade6.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "NO_DIRECT_PREREQUISITE_STANDARD_LISTED_NA",
+    "prerequisites": []
+  },
+  "6.SP.A.2": {
+    "source_grade_or_course": "6",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Grade6.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "NO_DIRECT_PREREQUISITE_STANDARD_LISTED_NA",
+    "prerequisites": []
+  },
+  "6.SP.A.3": {
+    "source_grade_or_course": "6",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Grade6.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "NO_DIRECT_PREREQUISITE_STANDARD_LISTED_NA",
+    "prerequisites": []
+  },
+  "6.SP.B.4": {
+    "source_grade_or_course": "6",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Grade6.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "5.MD.B.2",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "OUTSIDE_AEDIFICA_GRADES_6_12_SCOPE",
+        "current_label": null
+      }
+    ]
+  },
+  "6.SP.B.5": {
+    "source_grade_or_course": "6",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Grade6.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "NO_DIRECT_PREREQUISITE_STANDARD_LISTED_NA",
+    "prerequisites": []
+  },
+  "7.RP.A.1": {
+    "source_grade_or_course": "7",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Grade7.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "6.NS.A.1",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Interpret and compute division of fractions by fractions in contextual problems."
+      },
+      {
+        "code": "6.RP.A.2",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Interpret and use unit rates associated with ratios."
+      }
+    ]
+  },
+  "7.RP.A.2": {
+    "source_grade_or_course": "7",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Grade7.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "6.RP.A.3",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Use ratio and rate reasoning to solve real-world and mathematical problems."
+      },
+      {
+        "code": "5.G.A.2",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "OUTSIDE_AEDIFICA_GRADES_6_12_SCOPE",
+        "current_label": null
+      }
+    ]
+  },
+  "7.RP.A.3": {
+    "source_grade_or_course": "7",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Grade7.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "6.RP.A.3",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Use ratio and rate reasoning to solve real-world and mathematical problems."
+      }
+    ]
+  },
+  "7.NS.A.1": {
+    "source_grade_or_course": "7",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Grade7.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "6.NS.C.5",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Use positive and negative numbers to represent quantities with opposite directions or values."
+      },
+      {
+        "code": "6.NS.C.6",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Represent rational numbers on number lines and coordinate axes, including negative coordinates."
+      },
+      {
+        "code": "6.NS.C.7",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Understand ordering and absolute value of rational numbers."
+      },
+      {
+        "code": "5.NF.A.1",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "OUTSIDE_AEDIFICA_GRADES_6_12_SCOPE",
+        "current_label": null
+      }
+    ]
+  },
+  "7.NS.A.2": {
+    "source_grade_or_course": "7",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Grade7.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "5.NF.B.4",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "OUTSIDE_AEDIFICA_GRADES_6_12_SCOPE",
+        "current_label": null
+      },
+      {
+        "code": "5.NF.B.3",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "OUTSIDE_AEDIFICA_GRADES_6_12_SCOPE",
+        "current_label": null
+      },
+      {
+        "code": "6.NS.A.1",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Interpret and compute division of fractions by fractions in contextual problems."
+      },
+      {
+        "code": "6.NS.B.2",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Divide multi-digit whole numbers accurately and efficiently."
+      }
+    ]
+  },
+  "7.NS.A.3": {
+    "source_grade_or_course": "7",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Grade7.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "6.NS.B.3",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Fluently perform all four operations with multi-digit decimals."
+      },
+      {
+        "code": "5.NF.A.1",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "OUTSIDE_AEDIFICA_GRADES_6_12_SCOPE",
+        "current_label": null
+      },
+      {
+        "code": "4.MD.A.2",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "OUTSIDE_AEDIFICA_GRADES_6_12_SCOPE",
+        "current_label": null
+      }
+    ]
+  },
+  "7.EE.A.1": {
+    "source_grade_or_course": "7",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Grade7.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "6.EE.A.3",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Use operation properties to generate equivalent expressions."
+      }
+    ]
+  },
+  "7.EE.A.2": {
+    "source_grade_or_course": "7",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Grade7.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "6.EE.A.4",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Determine whether two expressions are equivalent for all variable values."
+      }
+    ]
+  },
+  "7.EE.B.3": {
+    "source_grade_or_course": "7",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Grade7.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "NO_DIRECT_PREREQUISITE_STANDARD_LISTED_NA",
+    "prerequisites": []
+  },
+  "7.EE.B.4": {
+    "source_grade_or_course": "7",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Grade7.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "6.EE.B.6",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Use variables to represent unknowns and quantities that can vary."
+      },
+      {
+        "code": "6.EE.B.7",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Write and solve one-step equations with nonnegative rational numbers."
+      },
+      {
+        "code": "6.EE.B.8",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Write, graph, and interpret one-variable inequalities representing constraints."
+      }
+    ]
+  },
+  "7.G.A.1": {
+    "source_grade_or_course": "7",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Grade7.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "6.G.A.1",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Find areas of triangles, quadrilaterals, and polygons by composing and decomposing shapes."
+      }
+    ]
+  },
+  "7.G.A.2": {
+    "source_grade_or_course": "7",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Grade7.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "NO_DIRECT_PREREQUISITE_STANDARD_LISTED_NA",
+    "prerequisites": []
+  },
+  "7.G.A.3": {
+    "source_grade_or_course": "7",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Grade7.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "NO_DIRECT_PREREQUISITE_STANDARD_LISTED_NA",
+    "prerequisites": []
+  },
+  "7.G.B.4": {
+    "source_grade_or_course": "7",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Grade7.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "NO_DIRECT_PREREQUISITE_STANDARD_LISTED_NA",
+    "prerequisites": []
+  },
+  "7.G.B.5": {
+    "source_grade_or_course": "7",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Grade7.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "4.MD.C.7",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "OUTSIDE_AEDIFICA_GRADES_6_12_SCOPE",
+        "current_label": null
+      }
+    ]
+  },
+  "7.G.B.6": {
+    "source_grade_or_course": "7",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Grade7.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "6.G.A.1",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Find areas of triangles, quadrilaterals, and polygons by composing and decomposing shapes."
+      },
+      {
+        "code": "6.G.A.2",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Find volumes of rectangular prisms with fractional edge lengths."
+      },
+      {
+        "code": "6.G.A.4",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Use nets to represent three-dimensional figures and calculate surface area."
+      }
+    ]
+  },
+  "7.SP.A.1": {
+    "source_grade_or_course": "7",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Grade7.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "6.SP.A.1",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Distinguish statistical questions from questions that do not anticipate variability."
+      }
+    ]
+  },
+  "7.SP.A.2": {
+    "source_grade_or_course": "7",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Grade7.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "6.SP.A.2",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Describe a numerical data distribution by center, spread, and overall shape."
+      }
+    ]
+  },
+  "7.SP.B.3": {
+    "source_grade_or_course": "7",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Grade7.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "NO_DIRECT_PREREQUISITE_STANDARD_LISTED_NA",
+    "prerequisites": []
+  },
+  "7.SP.B.4": {
+    "source_grade_or_course": "7",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Grade7.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "6.SP.B.5",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Summarize numerical data sets in relation to their context."
+      }
+    ]
+  },
+  "7.SP.C.5": {
+    "source_grade_or_course": "7",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Grade7.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "NO_DIRECT_PREREQUISITE_STANDARD_LISTED_NA",
+    "prerequisites": []
+  },
+  "7.SP.C.6": {
+    "source_grade_or_course": "7",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Grade7.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "NO_DIRECT_PREREQUISITE_STANDARD_LISTED_NA",
+    "prerequisites": []
+  },
+  "7.SP.C.7": {
+    "source_grade_or_course": "7",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Grade7.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "NO_DIRECT_PREREQUISITE_STANDARD_LISTED_NA",
+    "prerequisites": []
+  },
+  "7.SP.C.8": {
+    "source_grade_or_course": "7",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Grade7.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "NO_DIRECT_PREREQUISITE_STANDARD_LISTED_NA",
+    "prerequisites": []
+  },
+  "8.NS.A.1": {
+    "source_grade_or_course": "8",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Grade8.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "7.NS.A.2.d",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Convert rational numbers to terminating or repeating decimal forms."
+      }
+    ]
+  },
+  "8.NS.A.2": {
+    "source_grade_or_course": "8",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Grade8.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "NO_DIRECT_PREREQUISITE_STANDARD_LISTED_NA",
+    "prerequisites": []
+  },
+  "8.EE.A.1": {
+    "source_grade_or_course": "8",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Grade8.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "6.EE.A.1",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Write and evaluate numerical expressions with whole-number exponents."
+      }
+    ]
+  },
+  "8.EE.A.2": {
+    "source_grade_or_course": "8",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Grade8.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "7.NS.A.3",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Solve contextual and mathematical problems using all four operations with rational numbers."
+      },
+      {
+        "code": "6.EE.B.5",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Use substitution to test whether values satisfy equations or inequalities."
+      }
+    ]
+  },
+  "8.EE.A.3": {
+    "source_grade_or_course": "8",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Grade8.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "5.NBT.A.2",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "OUTSIDE_AEDIFICA_GRADES_6_12_SCOPE",
+        "current_label": null
+      }
+    ]
+  },
+  "8.EE.A.4": {
+    "source_grade_or_course": "8",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Grade8.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "7.EE.B.3",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Solve multistep problems with rational numbers and assess answer reasonableness."
+      }
+    ]
+  },
+  "8.EE.B.5": {
+    "source_grade_or_course": "8",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Grade8.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "7.RP.A.2",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Recognize and represent proportional relationships between quantities."
+      }
+    ]
+  },
+  "8.EE.B.6": {
+    "source_grade_or_course": "8",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Grade8.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "7.RP.A.2",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Recognize and represent proportional relationships between quantities."
+      }
+    ]
+  },
+  "8.EE.C.7": {
+    "source_grade_or_course": "8",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Grade8.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "7.EE.A.1",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Add, subtract, factor, and expand linear expressions with rational coefficients."
+      },
+      {
+        "code": "7.EE.B.4.a",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Write and solve equations of the forms px+q=r and p(x+q)=r."
+      }
+    ]
+  },
+  "8.EE.C.8": {
+    "source_grade_or_course": "8",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Grade8.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "6.EE.B.5",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Use substitution to test whether values satisfy equations or inequalities."
+      }
+    ]
+  },
+  "8.F.A.1": {
+    "source_grade_or_course": "8",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Grade8.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "5.OA.B.3",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "OUTSIDE_AEDIFICA_GRADES_6_12_SCOPE",
+        "current_label": null
+      }
+    ]
+  },
+  "8.F.A.2": {
+    "source_grade_or_course": "8",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Grade8.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "NO_DIRECT_PREREQUISITE_STANDARD_LISTED_NA",
+    "prerequisites": []
+  },
+  "8.F.A.3": {
+    "source_grade_or_course": "8",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Grade8.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "6.EE.C.9",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Represent relationships between dependent and independent variables with equations, tables, and graphs."
+      }
+    ]
+  },
+  "8.F.B.4": {
+    "source_grade_or_course": "8",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Grade8.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "7.RP.A.2",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Recognize and represent proportional relationships between quantities."
+      },
+      {
+        "code": "6.EE.C.9",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Represent relationships between dependent and independent variables with equations, tables, and graphs."
+      }
+    ]
+  },
+  "8.F.B.5": {
+    "source_grade_or_course": "8",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Grade8.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "NO_DIRECT_PREREQUISITE_STANDARD_LISTED_NA",
+    "prerequisites": []
+  },
+  "8.G.A.1": {
+    "source_grade_or_course": "8",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Grade8.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "NO_DIRECT_PREREQUISITE_STANDARD_LISTED_NA",
+    "prerequisites": []
+  },
+  "8.G.A.2": {
+    "source_grade_or_course": "8",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Grade8.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "NO_DIRECT_PREREQUISITE_STANDARD_LISTED_NA",
+    "prerequisites": []
+  },
+  "8.G.A.3": {
+    "source_grade_or_course": "8",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Grade8.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "6.G.A.3",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Draw coordinate-plane polygons and use coordinates to find side lengths."
+      }
+    ]
+  },
+  "8.G.A.4": {
+    "source_grade_or_course": "8",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Grade8.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "NO_DIRECT_PREREQUISITE_STANDARD_LISTED_NA",
+    "prerequisites": []
+  },
+  "8.G.A.5": {
+    "source_grade_or_course": "8",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Grade8.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "NO_DIRECT_PREREQUISITE_STANDARD_LISTED_NA",
+    "prerequisites": []
+  },
+  "8.G.B.6": {
+    "source_grade_or_course": "8",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Grade8.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "7.G.B.6",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Solve area, volume, and surface-area problems with composite two- and three-dimensional objects."
+      }
+    ]
+  },
+  "8.G.B.7": {
+    "source_grade_or_course": "8",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Grade8.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "NO_DIRECT_PREREQUISITE_STANDARD_LISTED_NA",
+    "prerequisites": []
+  },
+  "8.G.B.8": {
+    "source_grade_or_course": "8",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Grade8.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "6.G.A.3",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Draw coordinate-plane polygons and use coordinates to find side lengths."
+      }
+    ]
+  },
+  "8.G.C.9": {
+    "source_grade_or_course": "8",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Grade8.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "NO_DIRECT_PREREQUISITE_STANDARD_LISTED_NA",
+    "prerequisites": []
+  },
+  "8.SP.A.1": {
+    "source_grade_or_course": "8",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Grade8.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "6.SP.B.5",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Summarize numerical data sets in relation to their context."
+      },
+      {
+        "code": "6.NS.C.6.c",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Locate integers and rational numbers on number lines and coordinate planes."
+      }
+    ]
+  },
+  "8.SP.A.2": {
+    "source_grade_or_course": "8",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Grade8.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "NO_DIRECT_PREREQUISITE_STANDARD_LISTED_NA",
+    "prerequisites": []
+  },
+  "8.SP.A.3": {
+    "source_grade_or_course": "8",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Grade8.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "NO_DIRECT_PREREQUISITE_STANDARD_LISTED_NA",
+    "prerequisites": []
+  },
+  "8.SP.A.4": {
+    "source_grade_or_course": "8",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Grade8.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "NO_DIRECT_PREREQUISITE_STANDARD_LISTED_NA",
+    "prerequisites": []
+  },
+  "A.SSE.A.1": {
+    "source_grade_or_course": "Algebra I",
+    "source_url": "https://nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Algebra1.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "7.EE.A.2",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Rewrite expressions in forms that reveal relationships in context."
+      },
+      {
+        "code": "6.EE.A.2",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Write, read, and evaluate expressions in which letters stand for numbers."
+      }
+    ]
+  },
+  "A.SSE.A.2": {
+    "source_grade_or_course": "Algebra I",
+    "source_url": "https://nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Algebra1.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "7.EE.A.1",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Add, subtract, factor, and expand linear expressions with rational coefficients."
+      },
+      {
+        "code": "6.EE.A.3",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Use operation properties to generate equivalent expressions."
+      }
+    ]
+  },
+  "A.SSE.B.3": {
+    "source_grade_or_course": "Algebra I",
+    "source_url": "https://nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Algebra1.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "7.EE.A.1",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Add, subtract, factor, and expand linear expressions with rational coefficients."
+      },
+      {
+        "code": "8.EE.A.1",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Apply integer-exponent properties to create equivalent numerical expressions."
+      }
+    ]
+  },
+  "A.APR.A.1": {
+    "source_grade_or_course": "Algebra I",
+    "source_url": "https://nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Algebra1.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "8.EE.A.1",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Apply integer-exponent properties to create equivalent numerical expressions."
+      },
+      {
+        "code": "7.EE.A.1",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Add, subtract, factor, and expand linear expressions with rational coefficients."
+      },
+      {
+        "code": "6.EE.A.3",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Use operation properties to generate equivalent expressions."
+      },
+      {
+        "code": "6.EE.A.4",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Determine whether two expressions are equivalent for all variable values."
+      }
+    ]
+  },
+  "A.APR.B.3": {
+    "source_grade_or_course": "Algebra I",
+    "source_url": "https://nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Algebra1.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "7.EE.A.1",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Add, subtract, factor, and expand linear expressions with rational coefficients."
+      }
+    ]
+  },
+  "A.CED.A.1": {
+    "source_grade_or_course": "Algebra I",
+    "source_url": "https://nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Algebra1.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "8.F.B.4",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Construct linear models and interpret rate of change and initial value."
+      },
+      {
+        "code": "7.EE.B.4",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Use variables to represent quantities and construct equations and inequalities to solve problems."
+      }
+    ]
+  },
+  "A.CED.A.2": {
+    "source_grade_or_course": "Algebra I",
+    "source_url": "https://nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Algebra1.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "8.F.A.3",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Interpret y=mx+b as linear and distinguish linear from nonlinear functions."
+      },
+      {
+        "code": "8.F.B.4",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Construct linear models and interpret rate of change and initial value."
+      },
+      {
+        "code": "8.EE.B.5",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Graph proportional relationships, interpret unit rate as slope, and compare representations."
+      },
+      {
+        "code": "7.RP.A.2",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Recognize and represent proportional relationships between quantities."
+      }
+    ]
+  },
+  "A.CED.A.3": {
+    "source_grade_or_course": "Algebra I",
+    "source_url": "https://nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Algebra1.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "7.EE.B.4",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Use variables to represent quantities and construct equations and inequalities to solve problems."
+      }
+    ]
+  },
+  "A.CED.A.4": {
+    "source_grade_or_course": "Algebra I",
+    "source_url": "https://nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Algebra1.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "NO_DIRECT_PREREQUISITE_STANDARD_LISTED_NA",
+    "prerequisites": []
+  },
+  "A.REI.A.1": {
+    "source_grade_or_course": "Algebra I",
+    "source_url": "https://nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Algebra1.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "NO_DIRECT_PREREQUISITE_STANDARD_LISTED_NA",
+    "prerequisites": []
+  },
+  "A.REI.B.3": {
+    "source_grade_or_course": "Algebra I",
+    "source_url": "https://nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Algebra1.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "8.EE.C.7",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Solve linear equations in one variable."
+      }
+    ]
+  },
+  "A.REI.B.4": {
+    "source_grade_or_course": "Algebra I",
+    "source_url": "https://nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Algebra1.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "8.EE.A.2",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Use square-root and cube-root symbols to represent and evaluate solutions, and simplify numerical radicals."
+      },
+      {
+        "code": "8.EE.C.7",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Solve linear equations in one variable."
+      }
+    ]
+  },
+  "A.REI.C.5": {
+    "source_grade_or_course": "Algebra I",
+    "source_url": "https://nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Algebra1.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "8.EE.C.8",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Analyze and solve pairs of simultaneous linear equations."
+      }
+    ]
+  },
+  "A.REI.C.6": {
+    "source_grade_or_course": "Algebra I",
+    "source_url": "https://nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Algebra1.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "8.EE.C.8",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Analyze and solve pairs of simultaneous linear equations."
+      }
+    ]
+  },
+  "A.REI.D.10": {
+    "source_grade_or_course": "Algebra I",
+    "source_url": "https://nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Algebra1.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "NO_DIRECT_PREREQUISITE_STANDARD_LISTED_NA",
+    "prerequisites": []
+  },
+  "A.REI.D.11": {
+    "source_grade_or_course": "Algebra I",
+    "source_url": "https://nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Algebra1.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "8.EE.C.8",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Analyze and solve pairs of simultaneous linear equations."
+      }
+    ]
+  },
+  "A.REI.D.12": {
+    "source_grade_or_course": "Algebra I",
+    "source_url": "https://nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Algebra1.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "7.EE.B.4",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Use variables to represent quantities and construct equations and inequalities to solve problems."
+      }
+    ]
+  },
+  "F.IF.A.1": {
+    "source_grade_or_course": "Algebra I",
+    "source_url": "https://nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Algebra1.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "8.F.A.1",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Understand a function as assigning exactly one output to each input."
+      },
+      {
+        "code": "8.F.A.2",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Compare properties of functions represented algebraically, graphically, numerically, or verbally."
+      }
+    ]
+  },
+  "F.IF.A.2": {
+    "source_grade_or_course": "Algebra I",
+    "source_url": "https://nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Algebra1.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "6.EE.A.2",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Write, read, and evaluate expressions in which letters stand for numbers."
+      }
+    ]
+  },
+  "F.IF.A.3": {
+    "source_grade_or_course": "Algebra I",
+    "source_url": "https://nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Algebra1.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "NO_DIRECT_PREREQUISITE_STANDARD_LISTED_NA",
+    "prerequisites": []
+  },
+  "F.IF.B.4": {
+    "source_grade_or_course": "Algebra I",
+    "source_url": "https://nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Algebra1.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "8.F.B.5",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Describe qualitative functional relationships by analyzing or sketching graphs."
+      },
+      {
+        "code": "8.F.A.3",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Interpret y=mx+b as linear and distinguish linear from nonlinear functions."
+      }
+    ]
+  },
+  "F.IF.B.5": {
+    "source_grade_or_course": "Algebra I",
+    "source_url": "https://nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Algebra1.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "NO_DIRECT_PREREQUISITE_STANDARD_LISTED_NA",
+    "prerequisites": []
+  },
+  "F.IF.B.6": {
+    "source_grade_or_course": "Algebra I",
+    "source_url": "https://nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Algebra1.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "8.F.B.4",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Construct linear models and interpret rate of change and initial value."
+      }
+    ]
+  },
+  "F.IF.C.7": {
+    "source_grade_or_course": "Algebra I",
+    "source_url": "https://nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Algebra1.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "8.F.A.3",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Interpret y=mx+b as linear and distinguish linear from nonlinear functions."
+      },
+      {
+        "code": "8.EE.B.5",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Graph proportional relationships, interpret unit rate as slope, and compare representations."
+      },
+      {
+        "code": "7.EE.A.1",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Add, subtract, factor, and expand linear expressions with rational coefficients."
+      }
+    ]
+  },
+  "F.IF.C.8": {
+    "source_grade_or_course": "Algebra I",
+    "source_url": "https://nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Algebra1.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "7.EE.A.1",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Add, subtract, factor, and expand linear expressions with rational coefficients."
+      }
+    ]
+  },
+  "F.IF.C.9": {
+    "source_grade_or_course": "Algebra I",
+    "source_url": "https://nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Algebra1.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "8.F.A.2",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Compare properties of functions represented algebraically, graphically, numerically, or verbally."
+      }
+    ]
+  },
+  "F.BF.A.1": {
+    "source_grade_or_course": "Algebra I",
+    "source_url": "https://nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Algebra1.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "8.F.B.4",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Construct linear models and interpret rate of change and initial value."
+      }
+    ]
+  },
+  "F.BF.B.3": {
+    "source_grade_or_course": "Algebra I",
+    "source_url": "https://nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Algebra1.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "NO_DIRECT_PREREQUISITE_STANDARD_LISTED_NA",
+    "prerequisites": []
+  },
+  "F.LE.A.1": {
+    "source_grade_or_course": "Algebra I",
+    "source_url": "https://nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Algebra1.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "8.F.A.3",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Interpret y=mx+b as linear and distinguish linear from nonlinear functions."
+      },
+      {
+        "code": "8.F.B.4",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Construct linear models and interpret rate of change and initial value."
+      }
+    ]
+  },
+  "F.LE.A.2": {
+    "source_grade_or_course": "Algebra I",
+    "source_url": "https://nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Algebra1.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "8.F.B.4",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Construct linear models and interpret rate of change and initial value."
+      }
+    ]
+  },
+  "F.LE.A.3": {
+    "source_grade_or_course": "Algebra I",
+    "source_url": "https://nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Algebra1.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "NO_DIRECT_PREREQUISITE_STANDARD_LISTED_NA",
+    "prerequisites": []
+  },
+  "F.LE.B.5": {
+    "source_grade_or_course": "Algebra I",
+    "source_url": "https://nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Algebra1.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "NO_DIRECT_PREREQUISITE_STANDARD_LISTED_NA",
+    "prerequisites": []
+  },
+  "N.RN.B.3": {
+    "source_grade_or_course": "Algebra I",
+    "source_url": "https://nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Algebra1.pdf",
+    "target_crosswalk_status": "NO_EXACT_CURRENT_CODE_MATCH_REVIEW_REQUIRED",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "8.NS.A.1",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Distinguish rational and irrational numbers using decimal expansions."
+      }
+    ]
+  },
+  "N.Q.A.1": {
+    "source_grade_or_course": "Algebra I",
+    "source_url": "https://nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Algebra1.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "NO_DIRECT_PREREQUISITE_STANDARD_LISTED_NA",
+    "prerequisites": []
+  },
+  "N.Q.A.2": {
+    "source_grade_or_course": "Algebra I",
+    "source_url": "https://nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Algebra1.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "NO_DIRECT_PREREQUISITE_STANDARD_LISTED_NA",
+    "prerequisites": []
+  },
+  "N.Q.A.3": {
+    "source_grade_or_course": "Algebra I",
+    "source_url": "https://nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Algebra1.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "8.EE.A.4",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Compute with scientific notation and choose appropriate units for scale."
+      }
+    ]
+  },
+  "S.ID.A.1": {
+    "source_grade_or_course": "Algebra I",
+    "source_url": "https://nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Algebra1.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "6.SP.B.4",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Display numerical data with dot plots, histograms, and box plots."
+      }
+    ]
+  },
+  "S.ID.A.2": {
+    "source_grade_or_course": "Algebra I",
+    "source_url": "https://nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Algebra1.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "6.SP.A.2",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Describe a numerical data distribution by center, spread, and overall shape."
+      },
+      {
+        "code": "6.SP.B.5",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Summarize numerical data sets in relation to their context."
+      }
+    ]
+  },
+  "S.ID.A.3": {
+    "source_grade_or_course": "Algebra I",
+    "source_url": "https://nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Algebra1.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "6.SP.B.5",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Summarize numerical data sets in relation to their context."
+      }
+    ]
+  },
+  "S.ID.B.5": {
+    "source_grade_or_course": "Algebra I",
+    "source_url": "https://nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Algebra1.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "8.SP.A.4",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Use two-way tables to analyze associations between categorical variables."
+      }
+    ]
+  },
+  "S.ID.B.6": {
+    "source_grade_or_course": "Algebra I",
+    "source_url": "https://nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Algebra1.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "8.SP.A.1",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Construct and interpret scatter plots for bivariate measurement data."
+      },
+      {
+        "code": "8.SP.A.2",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Informally fit straight lines to data and judge model fit."
+      }
+    ]
+  },
+  "S.ID.C.7": {
+    "source_grade_or_course": "Algebra I",
+    "source_url": "https://nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Algebra1.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "8.SP.A.3",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Use linear models to solve problems and interpret slope and intercept."
+      }
+    ]
+  },
+  "S.ID.C.8": {
+    "source_grade_or_course": "Algebra I",
+    "source_url": "https://nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Algebra1.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "NO_DIRECT_PREREQUISITE_STANDARD_LISTED_NA",
+    "prerequisites": []
+  },
+  "S.ID.C.9": {
+    "source_grade_or_course": "Algebra I",
+    "source_url": "https://nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Algebra1.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "NO_DIRECT_PREREQUISITE_STANDARD_LISTED_NA",
+    "prerequisites": []
+  },
+  "G.CO.A.1": {
+    "source_grade_or_course": "Geometry",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Geometry.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "4.MD.C.5",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "OUTSIDE_AEDIFICA_GRADES_6_12_SCOPE",
+        "current_label": null
+      },
+      {
+        "code": "4.G.A.1",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "OUTSIDE_AEDIFICA_GRADES_6_12_SCOPE",
+        "current_label": null
+      }
+    ]
+  },
+  "G.CO.A.2": {
+    "source_grade_or_course": "Geometry",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Geometry.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "8.G.A.1",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Verify experimentally the properties preserved by rotations, reflections, and translations."
+      },
+      {
+        "code": "8.G.A.3",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Describe coordinate effects of dilations, translations, rotations, and reflections."
+      },
+      {
+        "code": "8.F.A.1",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Understand a function as assigning exactly one output to each input."
+      }
+    ]
+  },
+  "G.CO.A.3": {
+    "source_grade_or_course": "Geometry",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Geometry.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "8.G.A.2",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Understand congruence through sequences of rotations, reflections, and translations."
+      },
+      {
+        "code": "8.G.A.3",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Describe coordinate effects of dilations, translations, rotations, and reflections."
+      }
+    ]
+  },
+  "G.CO.A.4": {
+    "source_grade_or_course": "Geometry",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Geometry.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "8.G.A.2",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Understand congruence through sequences of rotations, reflections, and translations."
+      },
+      {
+        "code": "8.G.A.3",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Describe coordinate effects of dilations, translations, rotations, and reflections."
+      }
+    ]
+  },
+  "G.CO.A.5": {
+    "source_grade_or_course": "Geometry",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Geometry.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "8.G.A.2",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Understand congruence through sequences of rotations, reflections, and translations."
+      },
+      {
+        "code": "8.G.A.3",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Describe coordinate effects of dilations, translations, rotations, and reflections."
+      }
+    ]
+  },
+  "G.CO.B.6": {
+    "source_grade_or_course": "Geometry",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Geometry.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "8.G.A.2",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Understand congruence through sequences of rotations, reflections, and translations."
+      }
+    ]
+  },
+  "G.CO.B.7": {
+    "source_grade_or_course": "Geometry",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Geometry.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "8.G.A.2",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Understand congruence through sequences of rotations, reflections, and translations."
+      }
+    ]
+  },
+  "G.CO.B.8": {
+    "source_grade_or_course": "Geometry",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Geometry.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "8.G.A.2",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Understand congruence through sequences of rotations, reflections, and translations."
+      },
+      {
+        "code": "7.G.A.2",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Construct geometric figures under given conditions and analyze possible triangles."
+      }
+    ]
+  },
+  "G.CO.C.9": {
+    "source_grade_or_course": "Geometry",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Geometry.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "8.G.A.5",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Use angle relationships and triangle-angle facts in informal arguments."
+      },
+      {
+        "code": "7.G.B.5",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Use angle relationships to write and solve equations for unknown angles."
+      },
+      {
+        "code": "4.MD.C.7",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "OUTSIDE_AEDIFICA_GRADES_6_12_SCOPE",
+        "current_label": null
+      }
+    ]
+  },
+  "G.CO.C.10": {
+    "source_grade_or_course": "Geometry",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Geometry.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "8.G.A.5",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Use angle relationships and triangle-angle facts in informal arguments."
+      },
+      {
+        "code": "7.G.B.5",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Use angle relationships to write and solve equations for unknown angles."
+      },
+      {
+        "code": "4.MD.C.7",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "OUTSIDE_AEDIFICA_GRADES_6_12_SCOPE",
+        "current_label": null
+      }
+    ]
+  },
+  "G.CO.C.11": {
+    "source_grade_or_course": "Geometry",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Geometry.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "5.G.B.3",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "OUTSIDE_AEDIFICA_GRADES_6_12_SCOPE",
+        "current_label": null
+      },
+      {
+        "code": "4.G.A.2",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "OUTSIDE_AEDIFICA_GRADES_6_12_SCOPE",
+        "current_label": null
+      }
+    ]
+  },
+  "G.CO.D.12": {
+    "source_grade_or_course": "Geometry",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Geometry.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "4.MD.C.6",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "OUTSIDE_AEDIFICA_GRADES_6_12_SCOPE",
+        "current_label": null
+      }
+    ]
+  },
+  "G.CO.D.13": {
+    "source_grade_or_course": "Geometry",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Geometry.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "7.G.A.2",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Construct geometric figures under given conditions and analyze possible triangles."
+      }
+    ]
+  },
+  "G.SRT.A.1": {
+    "source_grade_or_course": "Geometry",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Geometry.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "F.BF.B.3",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE_CROSS_COURSE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Identify the effect on a graph of replacing f(x) with f(x)+k, k*f(x), f(kx), and f(x+k), and recognize even and odd functions"
+      },
+      {
+        "code": "8.G.A.2",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Understand congruence through sequences of rotations, reflections, and translations."
+      },
+      {
+        "code": "8.G.A.3",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Describe coordinate effects of dilations, translations, rotations, and reflections."
+      },
+      {
+        "code": "8.G.A.4",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Understand similarity through sequences of transformations including dilation."
+      },
+      {
+        "code": "8.EE.B.5",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Graph proportional relationships, interpret unit rate as slope, and compare representations."
+      },
+      {
+        "code": "8.EE.B.6",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Use similar triangles to explain constant slope and derive linear equations."
+      }
+    ]
+  },
+  "G.SRT.A.2": {
+    "source_grade_or_course": "Geometry",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Geometry.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "8.G.A.4",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Understand similarity through sequences of transformations including dilation."
+      }
+    ]
+  },
+  "G.SRT.A.3": {
+    "source_grade_or_course": "Geometry",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Geometry.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "8.G.A.5",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Use angle relationships and triangle-angle facts in informal arguments."
+      },
+      {
+        "code": "8.G.A.4",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Understand similarity through sequences of transformations including dilation."
+      }
+    ]
+  },
+  "G.SRT.B.4": {
+    "source_grade_or_course": "Geometry",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Geometry.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "8.G.B.6",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Explain the Pythagorean Theorem and its converse using models or reasoning."
+      },
+      {
+        "code": "7.RP.A.2",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Recognize and represent proportional relationships between quantities."
+      }
+    ]
+  },
+  "G.SRT.B.5": {
+    "source_grade_or_course": "Geometry",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Geometry.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "8.G.A.1",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Verify experimentally the properties preserved by rotations, reflections, and translations."
+      },
+      {
+        "code": "8.G.A.4",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Understand similarity through sequences of transformations including dilation."
+      }
+    ]
+  },
+  "G.SRT.C.6": {
+    "source_grade_or_course": "Geometry",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Geometry.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "7.RP.A.2",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Recognize and represent proportional relationships between quantities."
+      }
+    ]
+  },
+  "G.SRT.C.7": {
+    "source_grade_or_course": "Geometry",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Geometry.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "7.G.B.5",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Use angle relationships to write and solve equations for unknown angles."
+      }
+    ]
+  },
+  "G.SRT.C.8": {
+    "source_grade_or_course": "Geometry",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Geometry.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "8.G.B.7",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Apply the Pythagorean Theorem to find unknown side lengths in two and three dimensions."
+      },
+      {
+        "code": "7.RP.A.2",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Recognize and represent proportional relationships between quantities."
+      }
+    ]
+  },
+  "G.C.A.1": {
+    "source_grade_or_course": "Geometry",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Geometry.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "NO_DIRECT_PREREQUISITE_STANDARD_LISTED_NA",
+    "prerequisites": []
+  },
+  "G.C.A.2": {
+    "source_grade_or_course": "Geometry",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Geometry.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "NO_DIRECT_PREREQUISITE_STANDARD_LISTED_NA",
+    "prerequisites": []
+  },
+  "G.C.A.3": {
+    "source_grade_or_course": "Geometry",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Geometry.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "NO_DIRECT_PREREQUISITE_STANDARD_LISTED_NA",
+    "prerequisites": []
+  },
+  "G.C.B.5": {
+    "source_grade_or_course": "Geometry",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Geometry.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "NO_DIRECT_PREREQUISITE_STANDARD_LISTED_NA",
+    "prerequisites": []
+  },
+  "G.GPE.A.1": {
+    "source_grade_or_course": "Geometry",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Geometry.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "A.REI.B.4",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE_CROSS_COURSE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Solve quadratic equations in one variable by completing the square, taking square roots, factoring, and the quadratic formula, recognizing and writing complex solutions"
+      },
+      {
+        "code": "8.G.B.8",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Use the Pythagorean Theorem to find distances between coordinate-plane points."
+      }
+    ]
+  },
+  "G.GPE.B.4": {
+    "source_grade_or_course": "Geometry",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Geometry.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "8.G.B.8",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Use the Pythagorean Theorem to find distances between coordinate-plane points."
+      }
+    ]
+  },
+  "G.GPE.B.5": {
+    "source_grade_or_course": "Geometry",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Geometry.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "8.EE.B.6",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Use similar triangles to explain constant slope and derive linear equations."
+      },
+      {
+        "code": "8.EE.B.5",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Graph proportional relationships, interpret unit rate as slope, and compare representations."
+      }
+    ]
+  },
+  "G.GPE.B.6": {
+    "source_grade_or_course": "Geometry",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Geometry.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "6.RP.A.3",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Use ratio and rate reasoning to solve real-world and mathematical problems."
+      }
+    ]
+  },
+  "G.GPE.B.7": {
+    "source_grade_or_course": "Geometry",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Geometry.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "8.G.B.8",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Use the Pythagorean Theorem to find distances between coordinate-plane points."
+      },
+      {
+        "code": "6.G.A.1",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Find areas of triangles, quadrilaterals, and polygons by composing and decomposing shapes."
+      },
+      {
+        "code": "4.MD.A.3",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "OUTSIDE_AEDIFICA_GRADES_6_12_SCOPE",
+        "current_label": null
+      }
+    ]
+  },
+  "G.GMD.A.1": {
+    "source_grade_or_course": "Geometry",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Geometry.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "8.G.C.9",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Use volume formulas for cylinders, cones, and spheres."
+      },
+      {
+        "code": "7.G.B.4",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Use and informally derive circle circumference and area formulas."
+      }
+    ]
+  },
+  "G.GMD.A.3": {
+    "source_grade_or_course": "Geometry",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Geometry.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "8.G.C.9",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Use volume formulas for cylinders, cones, and spheres."
+      }
+    ]
+  },
+  "G.GMD.B.4": {
+    "source_grade_or_course": "Geometry",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Geometry.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "7.G.A.3",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Describe two-dimensional cross-sections of three-dimensional figures."
+      }
+    ]
+  },
+  "G.MG.A.1": {
+    "source_grade_or_course": "Geometry",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Geometry.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "7.G.B.6",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Solve area, volume, and surface-area problems with composite two- and three-dimensional objects."
+      }
+    ]
+  },
+  "G.MG.A.2": {
+    "source_grade_or_course": "Geometry",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Geometry.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "8.G.C.9",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Use volume formulas for cylinders, cones, and spheres."
+      },
+      {
+        "code": "7.G.B.6",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Solve area, volume, and surface-area problems with composite two- and three-dimensional objects."
+      },
+      {
+        "code": "6.RP.A.1",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Use ratio concepts and ratio language to describe relationships between quantities."
+      },
+      {
+        "code": "6.RP.A.2",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Interpret and use unit rates associated with ratios."
+      },
+      {
+        "code": "6.RP.A.3",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Use ratio and rate reasoning to solve real-world and mathematical problems."
+      }
+    ]
+  },
+  "G.MG.A.3": {
+    "source_grade_or_course": "Geometry",
+    "source_url": "https://www.nj.gov/education/standards/math/Docs/Math_PrerequisiteConceptsandSkillsbyDomain_Geometry.pdf",
+    "target_crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+    "direct_status": "DIRECT_PREREQUISITES_LISTED",
+    "prerequisites": [
+      {
+        "code": "A.CED.A.3",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE_CROSS_COURSE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Represent constraints with equations, inequalities, or systems and interpret solutions as viable or nonviable options in a modeling context"
+      },
+      {
+        "code": "A.CED.A.1",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE_CROSS_COURSE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Create equations and inequalities in one variable (linear, quadratic, simple rational and exponential) and use them to solve problems"
+      },
+      {
+        "code": "8.G.C.9",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Use volume formulas for cylinders, cones, and spheres."
+      },
+      {
+        "code": "7.G.A.1",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Solve scale-drawing problems, including actual lengths, areas, and rescaling."
+      },
+      {
+        "code": "7.G.B.6",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Solve area, volume, and surface-area problems with composite two- and three-dimensional objects."
+      },
+      {
+        "code": "6.G.A.4",
+        "evidence_class": "NJDOE_MATH_PCS_TABLE_PREREQUISITE",
+        "crosswalk_status": "EXACT_CODE_PRESENT_CURRENT",
+        "current_label": "Use nets to represent three-dimensional figures and calculate surface area."
+      }
+    ]
+  }
+}

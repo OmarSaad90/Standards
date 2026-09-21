@@ -1,0 +1,84 @@
+{
+  "total_standards": 2836,
+  "current": 2757,
+  "non_current": 79,
+  "supports": 1420,
+  "reinforces": 2424,
+  "next": 1420,
+  "endpoint_incidences": 5264,
+  "ela_total": 218,
+  "ela_current": 160,
+  "ela_historical": 58,
+  "ela_current_official_source_markers": 160,
+  "ela_standards_with_components": 40,
+  "ela_official_component_items": 183,
+  "math_pcs_target_rows": 161,
+  "math_pcs_direct_pairs": 192,
+  "subject_counts": {
+    "chpe": {
+      "area_name": "Comprehensive Health & Physical Education",
+      "total": 158,
+      "current": 158,
+      "non_current": 0
+    },
+    "clks": {
+      "area_name": "Career Readiness, Life Literacies & Key Skills",
+      "total": 814,
+      "current": 814,
+      "non_current": 0
+    },
+    "compsci": {
+      "area_name": "Computer Science & Design Thinking",
+      "total": 91,
+      "current": 91,
+      "non_current": 0
+    },
+    "ela": {
+      "area_name": "English Language Arts",
+      "total": 218,
+      "current": 160,
+      "non_current": 58
+    },
+    "math": {
+      "area_name": "Mathematics",
+      "total": 293,
+      "current": 293,
+      "non_current": 0
+    },
+    "science": {
+      "area_name": "Science",
+      "total": 138,
+      "current": 138,
+      "non_current": 0
+    },
+    "socst": {
+      "area_name": "Social Studies",
+      "total": 380,
+      "current": 380,
+      "non_current": 0
+    },
+    "vpa": {
+      "area_name": "Visual & Performing Arts",
+      "total": 627,
+      "current": 606,
+      "non_current": 21
+    },
+    "wl": {
+      "area_name": "World Languages",
+      "total": 117,
+      "current": 117,
+      "non_current": 0
+    }
+  },
+  "grade_tag_counts": {
+    "6": 79,
+    "7": 75,
+    "8": 71,
+    "6-8": 561,
+    "9-10": 61,
+    "9-12": 1973,
+    "11-12": 61
+  },
+  "relationship_cta_state": "COMING_SOON",
+  "live_relationship_route": false
+}

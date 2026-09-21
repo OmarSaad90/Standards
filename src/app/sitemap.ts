@@ -15,21 +15,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const staticRoutes: MetadataRoute.Sitemap = [
     { url: `${SITE_URL}/`, lastModified: now, changeFrequency: 'monthly', priority: 1 },
     { url: `${SITE_URL}/standards`, lastModified: now, changeFrequency: 'monthly', priority: 0.9 },
-    { url: `${SITE_URL}/subjects`, lastModified: now, changeFrequency: 'yearly', priority: 0.8 },
-    { url: `${SITE_URL}/grades`, lastModified: now, changeFrequency: 'yearly', priority: 0.8 },
+    { url: `${SITE_URL}/standards/subject`, lastModified: now, changeFrequency: 'yearly', priority: 0.8 },
+    { url: `${SITE_URL}/standards/grade`, lastModified: now, changeFrequency: 'yearly', priority: 0.8 },
     { url: `${SITE_URL}/about`, lastModified: now, changeFrequency: 'yearly', priority: 0.5 },
-    { url: `${SITE_URL}/pro`, lastModified: now, changeFrequency: 'yearly', priority: 0.5 },
   ]
 
   const subjectRoutes: MetadataRoute.Sitemap = subjectDirectory().map((s) => ({
-    url: `${SITE_URL}/subjects/${s.slug}`,
+    url: `${SITE_URL}/standards/subject/${s.slug}`,
     lastModified: now,
     changeFrequency: 'yearly',
     priority: 0.7,
   }))
 
   const gradeRoutes: MetadataRoute.Sitemap = ['middle', 'high', ...gradeTokens()].map((g) => ({
-    url: `${SITE_URL}/grades/${encodeURIComponent(g)}`,
+    url: `${SITE_URL}/standards/grade/${encodeURIComponent(g)}`,
     lastModified: now,
     changeFrequency: 'yearly',
     priority: 0.7,

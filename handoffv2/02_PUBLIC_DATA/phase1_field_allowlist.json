@@ -1,0 +1,31 @@
+{
+  "allowed_fields": [
+    "uid",
+    "code",
+    "area",
+    "area_name",
+    "label",
+    "grades",
+    "current",
+    "status",
+    "source_url",
+    "source_url_kind",
+    "frameworks",
+    "versions",
+    "relationship_count",
+    "relationship_counts",
+    "aedifica_view",
+    "domain",
+    "public_relationship_buckets",
+    "generic_evidence_signals",
+    "framework_lineage",
+    "official_text_source",
+    "official_components"
+  ],
+  "explicitly_excluded_from_phase1_production_payload": [
+    "app_count",
+    "programs",
+    "curriculum_preview"
+  ],
+  "reason": "Not required by the Phase 1 Free Standards UI. Do not expose unused legacy embedded fields."
+}

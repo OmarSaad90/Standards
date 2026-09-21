@@ -6,18 +6,29 @@ import { ALLOWED_STANDARD_KEYS } from './types'
 import type { PublicStandard, PublicMeta, AreaMeta } from './types'
 import { subjectSlug, bandMembership } from './slugs'
 import { foldCode } from './codes'
+import { DATA_VERSION } from './config'
 
-const DATA_PATH = path.join(process.cwd(), 'data', 'public_data_v2_8_1_locked.json')
+const STANDARDS_PATH = path.join(process.cwd(), 'data', 'public_standards_phase1_v1_0_7.json')
+const COUNTS_PATH = path.join(process.cwd(), 'data', 'public_counts_v1_0_7.json')
 
-interface RawPayload {
-  meta: PublicMeta & Record<string, unknown>
-  standards: unknown[]
+interface SubjectCount {
+  area_name: string
+  total: number
+  current: number
+  non_current: number
+}
+
+interface CountsPayload {
+  total_standards: number
+  current: number
+  subject_counts: Record<string, SubjectCount>
 }
 
 /**
  * Strict intake. Any key not on the approved public list is a hard failure,
- * per 06_SECURITY_BOUNDARY.md: protected data must never reach the browser at
- * all, rather than reaching it and being hidden by UI logic.
+ * per handoffv2/05_DEVELOPER_INSTRUCTIONS/03_PUBLIC_DATA_CONTRACT.md: protected data
+ * must never reach the browser at all, rather than reaching it and being hidden by
+ * UI logic.
  */
 function assertPublicShape(raw: unknown, index: number): PublicStandard {
   if (typeof raw !== 'object' || raw === null) {
@@ -27,25 +38,31 @@ function assertPublicShape(raw: unknown, index: number): PublicStandard {
   if (extras.length > 0) {
     throw new Error(
       `standards[${index}] carries non-public field(s): ${extras.join(', ')}. ` +
-        `Refusing to load. See 06_SECURITY_BOUNDARY.md.`,
+        `Refusing to load. See handoffv2/05_DEVELOPER_INSTRUCTIONS/03_PUBLIC_DATA_CONTRACT.md.`,
     )
   }
   return raw as PublicStandard
 }
 
 function load() {
-  const buf = fs.readFileSync(DATA_PATH)
-  const sha256 = crypto.createHash('sha256').update(buf).digest('hex')
-  const payload = JSON.parse(buf.toString('utf8')) as RawPayload
+  const standardsBuf = fs.readFileSync(STANDARDS_PATH)
+  const sha256 = crypto.createHash('sha256').update(standardsBuf).digest('hex')
+  const rawStandards = JSON.parse(standardsBuf.toString('utf8')) as unknown[]
+  const counts = JSON.parse(fs.readFileSync(COUNTS_PATH, 'utf8')) as CountsPayload
 
-  const standards = payload.standards.map(assertPublicShape)
+  const standards = rawStandards.map(assertPublicShape)
+
+  const areas: AreaMeta[] = Object.values(counts.subject_counts).map((a) => ({
+    name: a.area_name,
+    count: a.current,
+  }))
 
   const meta: PublicMeta = {
-    version: payload.meta.version,
-    total_count: payload.meta.total_count,
-    current_count: payload.meta.current_count,
-    areas: payload.meta.areas as AreaMeta[],
-    public_contract: payload.meta.public_contract,
+    version: DATA_VERSION,
+    total_count: counts.total_standards,
+    current_count: counts.current,
+    areas,
+    public_contract: 'handoffv2/02_PUBLIC_DATA/phase1_field_allowlist.json',
   }
 
   const byCode = new Map<string, PublicStandard>()
@@ -58,7 +75,7 @@ function load() {
 
     const slug = subjectSlug(s.area_name)
     areaNameBySlug.set(slug, s.area_name)
-    // short area code kept as an alias so /subjects/math also resolves
+    // short area code kept as an alias so /standards/subject/math also resolves
     areaNameBySlug.set(s.area.toLowerCase(), s.area_name)
     if (!bySubjectSlug.has(slug)) bySubjectSlug.set(slug, [])
     bySubjectSlug.get(slug)!.push(s)
